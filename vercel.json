@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "public": true,
   "github": {
-    "enabled": false
+    "enabled": true
   }
 }
