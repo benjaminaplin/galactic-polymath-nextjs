@@ -1,0 +1,19 @@
+.about-body-grid {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: 1fr;
+  color: var(--main-text-color);
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .about-body-grid {
+    grid-column: 2 / 3;
+  }
+}

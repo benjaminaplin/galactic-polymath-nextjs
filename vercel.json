@@ -1,0 +1,8 @@
+{
+  "name": "galactic-polymath-nextjs",
+  "version": "1.0.0",
+  "public": true,
+  "github": {
+    "enabled": false
+  }
+}
