@@ -5,6 +5,7 @@ import { CacheProvider } from '@emotion/core'
 import { cache } from 'emotion'
 
 import { globalStyles } from '../shared/styles'
+import "../App.css";
 
 export default class App extends NextApp {
   render() {

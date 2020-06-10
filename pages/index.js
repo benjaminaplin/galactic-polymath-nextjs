@@ -1,12 +1,10 @@
-import { Basic, Combined, Animated, bounce } from '../shared/styles'
+import { Basic, Combined, Animated, bounce } from "../shared/styles";
+import LandingPage from "./landingPage";
+
 const Home = () => (
   <div>
-    <Basic>Cool Styles</Basic>
-    <Combined>
-      With <code>:hover</code>.
-    </Combined>
-    <Animated animation={bounce}>Let's bounce.</Animated>
+    <LandingPage />
   </div>
-)
+);
 
-export default Home
+export default Home;

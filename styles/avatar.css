@@ -1,0 +1,14 @@
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.avatar-img-container img {
+  border-radius: 50%;
+}
+
+.avatar-info-container {
+  margin: auto;
+  font-size: xx-large;
+}

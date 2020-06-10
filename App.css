@@ -1,0 +1,22 @@
+@import "styles/about.css";
+@import "styles/landingPage.css";
+@import "styles/layout.css";
+@import "styles/avatar.css";
+@import "styles/multiLineLessons.css";
+@import "styles/footer.css";
+@import "styles/jobViz.css";
+
+:root {
+  --gp-hydro-blue: #2c83c3;
+  --gp-lightning-purple: #6c2d82;
+  --gp-fuchsia: #ff3dac;
+  --gp-atomic-blue: #6812d1;
+  --gp-burst-purple: #cb1f8e;
+  --gp-galactic-black: #090816;
+  --gp-sparkle-white: #f0f4ff;
+  --red-line-color: #f43367;
+  --blue-line-color: #016dc6;
+  --green-line-color: #4eae53;
+  --yellow-line-color: #ffa826;
+  --main-text-color: #f43367;
+}
