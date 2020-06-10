@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Layout from "../../components/layout/layout";
-import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
+// import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 
 class JobViz extends Component {
   render(){
@@ -8,7 +8,8 @@ class JobViz extends Component {
       <Layout footer={false}>
         <div className="job-viz-body-grid">
           <div style={{ width: "70%", textAlign: "center" }}>
-            <Parallax
+            yay
+            {/* <Parallax
               pages={2}
               ref={(ref) => (this.parallax = ref)}
               style={{ width: "70%" }}
@@ -32,7 +33,7 @@ class JobViz extends Component {
               <ParallaxLayer offset={0} speed={0.1}>
                 <img src="https://gdurl.com/4KdN" height="600" />
               </ParallaxLayer>
-            </Parallax>
+            </Parallax> */}
           </div>
         </div>
       </Layout>
