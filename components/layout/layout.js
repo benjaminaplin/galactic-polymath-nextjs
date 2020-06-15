@@ -5,11 +5,11 @@ import PropTypes from "prop-types";
 
 const Layout = ({children, footer = true}) => {
   return (
-    <div className="grid-container">
+    <div className="main-layout-grid-container">
       <Header/>
-      <>
+      <div className="main-content">
         {children}
-      </>
+      </div>
       {footer ? <Footer/> : null  }
     </div>
   );};

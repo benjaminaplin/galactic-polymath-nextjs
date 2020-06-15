@@ -13,7 +13,7 @@
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .about-body-grid {
+  /* .about-body-grid {
     grid-column: 2 / 3;
-  }
+  } */
 }

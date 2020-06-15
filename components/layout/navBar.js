@@ -5,14 +5,14 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <div className="navbar-container">
-      <Link href="/home">
+      <Link href="/">
         <a>
         <div className="navbar-logo_container">
           <img  className="navbar-logo" src="https://gdurl.com/Z6pp" />
         </div>
         </a>
       </Link>
-      <Button path="/home" buttonText="Home" classProp="header-nav-button" />
+      <Button path="/" buttonText="Home" classProp="header-nav-button" />
       <Button path="/lessons" buttonText="Lessons" classProp="header-nav-button" />
       <Button path="/jobViz" buttonText="JobViz" classProp="header-nav-button" />
       <Button path="/hireUs" buttonText="Hire Us" classProp="header-nav-button" />
