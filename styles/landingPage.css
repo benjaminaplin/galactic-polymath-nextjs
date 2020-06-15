@@ -29,19 +29,6 @@
   margin: 0 1rem;
 }
 
-.mission-statement-row {
-  grid-row: 2 / 3;
-  grid-column: 1 / 1;
-  background: #f5f9fd;
-  border: 2px solid #cce2f3;
-  /* display: flex;
-  justify-content: center; */
-}
-
-.mission-statement-text {
-  padding: 1rem;
-}
-
 .classroom-image {
   width: 100%;
   object-fit: cover;
@@ -84,6 +71,9 @@
 }
 
 .job-viz-db-container {
+  justify-content: center;
+  background: #f5f9fd;
+  border: 2px solid #cce2f3;
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
