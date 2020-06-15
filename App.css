@@ -5,6 +5,7 @@
 @import "styles/multiLineLessons.css";
 @import "styles/footer.css";
 @import "styles/jobViz.css";
+@import "styles/accordion.css";
 
 :root {
   --gp-hydro-blue: #2c83c3;
@@ -18,5 +19,10 @@
   --blue-line-color: #016dc6;
   --green-line-color: #4eae53;
   --yellow-line-color: #ffa826;
-  --main-text-color: #f43367;
+  --main-text-color: var(--gp-hydro-blue);
+}
+
+.about-paragraph {
+  padding: 0.25rem 1rem;
+  margin: 0 1rem;
 }

@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component} from "./node_modules/react";
 import Layout from "../../components/layout/layout";
 // import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 

@@ -1,6 +1,4 @@
 .landing-page-body-grid {
-  grid-row: 2 / 3;
-  grid-column: 1 / 2;
   font-size: 0.85rem;
   margin: 0 0.5rem;
   display: grid;
@@ -18,7 +16,6 @@
 
 .mission-statement-text {
   padding: 1rem;
-  font-family: sans-serif;
 }
 
 .standard-page-body-grid {
@@ -37,11 +34,12 @@
   grid-column: 1 / 1;
   background: #f5f9fd;
   border: 2px solid #cce2f3;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .mission-statement-text {
   padding: 1rem;
-  font-family: sans-serif;
 }
 
 .classroom-image {
@@ -56,6 +54,7 @@
 }
 
 .summary-statement-row {
+  padding: 1rem;
   grid-row: 4 / 5;
   grid-column: 1 / 1;
 }
@@ -96,7 +95,7 @@
   /* For tablets: */
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
   /* For desktop: */
   .landing-page-body-grid {
     font-size: 1rem;
@@ -105,7 +104,6 @@
 
   .mission-statement-text {
     padding: 1rem;
-    font-family: sans-serif;
   }
   .mission-statement-row {
     display: flex;

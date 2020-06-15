@@ -52,7 +52,7 @@
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .landing-page-body-grid {
+  /* .landing-page-body-grid {
     grid-column: 2 / 3;
-  }
+  } */
 }

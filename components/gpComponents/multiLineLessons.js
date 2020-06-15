@@ -6,8 +6,8 @@ const MultiLineLessons = () => {
    <div className="nested-multiline-grid">
      <div className="red-line" />
      <div className="blue-line" />
-     <div className="green-line" />
      <div className="yellow-line" />
+     <div className="green-line" />
      <div className="math-lesson-img-container">
        <img
          alt="math lesson image"
@@ -36,14 +36,14 @@ const MultiLineLessons = () => {
        <img
          alt="social studies lesson image"
          className="social-studies-lesson-image"
-         src="https://gdurl.com/m8Iy"
+         src="https://gdurl.com/jmGe"
        />
      </div>
-       <div className="social-studies-lesson-text">
-         Social Studies Lesson: Students learn about how language and geography
-         affect our assumptions through a role-playing data exploration exercise
-         using OneZoom.
-       </div>
+     <div className="social-studies-lesson-text">
+       Social Studies Lesson: Students learn about how language and geography
+       affect our assumptions through a role-playing data exploration exercise
+       using OneZoom.
+     </div>
      <div className="english-lesson-img-container">
        <img
          alt="english lesson image"
@@ -51,11 +51,11 @@ const MultiLineLessons = () => {
          src="https://gdurl.com/m8Iy"
        />
      </div>
-       <div className="english-lesson-text">
-         English lesson: Students play out a role playing simulation to connect
-         their personal experiences with bias to scientific assumptions, and how
-         addressing bias in each of these domains marks progress.
-       </div>
+     <div className="english-lesson-text">
+       English lesson: Students play out a role playing simulation to connect
+       their personal experiences with bias to scientific assumptions, and how
+       addressing bias in each of these domains marks progress.
+     </div>
    </div>
  );
 };
