@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .avatar-img-container img {
