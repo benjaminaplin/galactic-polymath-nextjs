@@ -23,8 +23,8 @@
 
 .accordion-title {
   cursor: pointer;
-  padding: 0.25rem 1rem;
-  margin: 0 2.5rem;
+  /* padding: 0.25rem 1rem; */
+  margin: 0 1.95rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,5 +53,5 @@
 }
 
 .accordion-content {
-  padding: 0 1.5em;
+  /* padding: 0 1.5em; */
 }
