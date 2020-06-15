@@ -1,0 +1,2628 @@
+[
+  {
+    "name": "Jobs",
+    "children": [
+      {
+        "name": "Architecture & engineering",
+        "children": [
+          {
+            "name": "Architects, surveyors, etc",
+            "children": [
+              {
+                "name": "Architects, except naval",
+                "children": [
+                  { "name": "Architects, except landscape & naval" },
+                  { "name": "Landscape architects" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Surveyors, cartographers, etc",
+                "children": [
+                  { "name": "Cartographers & photogrammetrists" },
+                  { "name": "Surveyors" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Drafters, engineering technicians, etc",
+            "children": [
+              {
+                "name": "Drafters",
+                "children": [
+                  { "name": "Architectural & civil drafters" },
+                  { "name": "Drafters, all other" },
+                  { "name": "Electrical & electronics drafters" },
+                  { "name": "Mechanical drafters" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Engineering technicians, except drafters",
+                "children": [
+                  { "name": "Aerospace engineering & operations technicians" },
+                  { "name": "Civil engineering technicians" },
+                  {
+                    "name": "Electrical & electronics engineering technicians"
+                  },
+                  { "name": "Electro-mechanical technicians" },
+                  { "name": "Engineering technicians, except drafters, etc" },
+                  { "name": "Environmental engineering technicians" },
+                  { "name": "Industrial engineering technicians" },
+                  { "name": "Mechanical engineering technicians" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Surveying & mapping technicians" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Engineers",
+            "children": [
+              { "name": "Aerospace engineers" },
+              { "name": "Agricultural engineers" },
+              { "name": "Biomedical engineers" },
+              { "name": "Chemical engineers" },
+              { "name": "Civil engineers" },
+              { "name": "Computer hardware engineers" },
+              {
+                "name": "Electrical & electronics engineers",
+                "children": [
+                  { "name": "Electrical engineers" },
+                  { "name": "Electronics engineers, except computer" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Engineers, all other" },
+              { "name": "Environmental engineers" },
+              {
+                "name": "Industrial engineers, including health & safety",
+                "children": [
+                  {
+                    "name": "Health & safety engineers, except mining safety engineers & inspectors"
+                  },
+                  { "name": "Industrial engineers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Marine engineers & naval architects" },
+              { "name": "Materials engineers" },
+              { "name": "Mechanical engineers" },
+              {
+                "name": "Mining & geological engineers, including mining safety engineers"
+              },
+              { "name": "Nuclear engineers" },
+              { "name": "Petroleum engineers" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Arts, design, etc",
+        "children": [
+          {
+            "name": "Art & design workers",
+            "children": [
+              {
+                "name": "Artists & related workers",
+                "children": [
+                  { "name": "Art directors" },
+                  { "name": "Artists & related workers, all other" },
+                  { "name": "Craft artists" },
+                  { "name": "Fine artists, including painters, etc" },
+                  { "name": "Multimedia artists & animators" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Designers",
+                "children": [
+                  { "name": "Commercial & industrial designers" },
+                  { "name": "Designers, all other" },
+                  { "name": "Fashion designers" },
+                  { "name": "Floral designers" },
+                  { "name": "Graphic designers" },
+                  { "name": "Interior designers" },
+                  { "name": "Merchandise displayers & window trimmers" },
+                  { "name": "Set & exhibit designers" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Entertainers & performers, sports & related workers",
+            "children": [
+              {
+                "name": "Actors, producers, etc",
+                "children": [
+                  { "name": "Actors" },
+                  { "name": "Producers & directors" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Athletes, coaches, etc",
+                "children": [
+                  { "name": "Athletes & sports competitors" },
+                  { "name": "Coaches & scouts" },
+                  { "name": "Umpires, referees, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Dancers & choreographers",
+                "children": [
+                  { "name": "Choreographers" },
+                  { "name": "Dancers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Entertainers & performers, sports & related workers, etc"
+              },
+              {
+                "name": "Musicians, singers, etc",
+                "children": [
+                  { "name": "Music directors & composers" },
+                  { "name": "Musicians & singers" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Media & communication equipment workers",
+            "children": [
+              {
+                "name": "Broadcast & sound engineering technicians & radio operators",
+                "children": [
+                  { "name": "Audio & video equipment technicians" },
+                  { "name": "Broadcast technicians" },
+                  { "name": "Radio operators" },
+                  { "name": "Sound engineering technicians" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Media & communication equipment workers, all other" },
+              { "name": "Photographers" },
+              {
+                "name": "Television, video, etc",
+                "children": [
+                  { "name": "Camera operators, television, etc" },
+                  { "name": "Film & video editors" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Media & communication workers",
+            "children": [
+              {
+                "name": "Announcers",
+                "children": [
+                  { "name": "Public address system & other announcers" },
+                  { "name": "Radio & television announcers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous media & communication workers",
+                "children": [
+                  { "name": "Interpreters & translators" },
+                  { "name": "Media & communication workers, all other" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "News analysts, reporters & correspondents",
+                "children": [
+                  { "name": "Broadcast news analysts" },
+                  { "name": "Reporters & correspondents" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Public relations specialists" },
+              {
+                "name": "Writers & editors",
+                "children": [
+                  { "name": "Editors" },
+                  { "name": "Technical writers" },
+                  { "name": "Writers & authors" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Building & grounds cleaning & maintenance",
+        "children": [
+          {
+            "name": "Building cleaning & pest control workers",
+            "children": [
+              {
+                "name": "Building cleaning workers",
+                "children": [
+                  { "name": "Building cleaning workers, all other" },
+                  {
+                    "name": "Janitors & cleaners, except maids & housekeeping cleaners"
+                  },
+                  { "name": "Maids & housekeeping cleaners" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Pest control workers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Grounds maintenance workers",
+            "children": [
+              { "name": "Grounds maintenance workers, all other" },
+              { "name": "Landscaping & groundskeeping workers" },
+              { "name": "Pesticide handlers, sprayers, etc" },
+              { "name": "Tree trimmers & pruners" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of building & grounds cleaning & maintenance workers",
+            "children": [
+              {
+                "name": "First-line supervisors of housekeeping & janitorial workers"
+              },
+              {
+                "name": "First-line supervisors of landscaping, lawn service, etc"
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Business & financial operations",
+        "children": [
+          {
+            "name": "Business operations specialists",
+            "children": [
+              {
+                "name": "Agents & business managers of artists, performers, etc"
+              },
+              { "name": "Business operations specialists, all other" },
+              {
+                "name": "Buyers & purchasing agents",
+                "children": [
+                  { "name": "Buyers & purchasing agents, farm products" },
+                  { "name": "Purchasing agents, except wholesale, etc" },
+                  { "name": "Wholesale & retail buyers, except farm products" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Claims adjusters, appraisers, etc",
+                "children": [
+                  { "name": "Claims adjusters, examiners, etc" },
+                  { "name": "Insurance appraisers, auto damage" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Compensation, benefits, etc" },
+              { "name": "Compliance officers" },
+              { "name": "Cost estimators" },
+              { "name": "Fundraisers" },
+              {
+                "name": "Human resources workers",
+                "children": [
+                  { "name": "Farm labor contractors" },
+                  { "name": "Human resources specialists" },
+                  { "name": "Labor relations specialists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Logisticians" },
+              { "name": "Management analysts" },
+              { "name": "Market research analysts & marketing specialists" },
+              { "name": "Meeting, convention, etc" },
+              { "name": "Training & development specialists" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Financial specialists",
+            "children": [
+              { "name": "Accountants & auditors" },
+              { "name": "Appraisers & assessors of real estate" },
+              { "name": "Budget analysts" },
+              { "name": "Credit analysts" },
+              {
+                "name": "Credit counselors & loan officers",
+                "children": [
+                  { "name": "Credit counselors" },
+                  { "name": "Loan officers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Financial analysts & advisors",
+                "children": [
+                  { "name": "Financial analysts" },
+                  { "name": "Insurance underwriters" },
+                  { "name": "Personal financial advisors" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Financial examiners" },
+              { "name": "Financial specialists, all other" },
+              {
+                "name": "Tax examiners, collectors & preparers, etc",
+                "children": [
+                  { "name": "Tax examiners & collectors, & revenue agents" },
+                  { "name": "Tax preparers" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Community & social service",
+        "children": [
+          {
+            "name": "Counselors, social workers, etc",
+            "children": [
+              {
+                "name": "Counselors",
+                "children": [
+                  { "name": "Counselors, all other" },
+                  { "name": "Educational, guidance, etc" },
+                  { "name": "Marriage & family therapists" },
+                  { "name": "Mental health counselors" },
+                  { "name": "Rehabilitation counselors" },
+                  { "name": "Substance abuse & behavioral disorder counselors" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous community & social service specialists",
+                "children": [
+                  {
+                    "name": "Community & social service specialists, all other"
+                  },
+                  { "name": "Community health workers" },
+                  { "name": "Health educators" },
+                  {
+                    "name": "Probation officers & correctional treatment specialists"
+                  },
+                  { "name": "Social & human service assistants" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Social workers",
+                "children": [
+                  { "name": "Child, family, etc" },
+                  { "name": "Healthcare social workers" },
+                  { "name": "Mental health & substance abuse social workers" },
+                  { "name": "Social workers, all other" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Religious workers",
+            "children": [
+              { "name": "Clergy" },
+              { "name": "Directors, religious activities & education" },
+              { "name": "Religious workers, all other" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Computer & mathematical",
+        "children": [
+          {
+            "name": "Computer",
+            "children": [
+              {
+                "name": "Computer & information analysts",
+                "children": [
+                  { "name": "Computer systems analysts" },
+                  { "name": "Information security analysts" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Computer & information research scientists" },
+              {
+                "name": "Computer support specialists",
+                "children": [
+                  { "name": "Computer network support specialists" },
+                  { "name": "Computer user support specialists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Computer, all other" },
+              {
+                "name": "Database & systems administrators & network architects",
+                "children": [
+                  { "name": "Computer network architects" },
+                  { "name": "Database administrators" },
+                  { "name": "Network & computer systems administrators" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Software developers & programmers",
+                "children": [
+                  { "name": "Computer programmers" },
+                  { "name": "Software developers, applications" },
+                  { "name": "Software developers, systems software" },
+                  { "name": "Web developers" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Mathematical science",
+            "children": [
+              { "name": "Actuaries" },
+              { "name": "Mathematicians" },
+              {
+                "name": "Miscellaneous mathematical science",
+                "children": [
+                  { "name": "Mathematical science, all other" },
+                  { "name": "Mathematical technicians" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Operations research analysts" },
+              { "name": "Statisticians" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Construction & extraction",
+        "children": [
+          {
+            "name": "Construction trades workers",
+            "children": [
+              { "name": "Boilermakers" },
+              {
+                "name": "Brickmasons, blockmasons, etc",
+                "children": [
+                  { "name": "Brickmasons & blockmasons" },
+                  { "name": "Stonemasons" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Carpenters" },
+              {
+                "name": "Carpet, floor, etc",
+                "children": [
+                  { "name": "Carpet installers" },
+                  { "name": "Floor layers, except carpet, etc" },
+                  { "name": "Floor sanders & finishers" },
+                  { "name": "Tile & marble setters" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Cement masons, concrete finishers, etc",
+                "children": [
+                  { "name": "Cement masons & concrete finishers" },
+                  { "name": "Terrazzo workers & finishers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Construction equipment operators",
+                "children": [
+                  {
+                    "name": "Operating engineers & other construction equipment operators"
+                  },
+                  { "name": "Paving, surfacing, etc" },
+                  { "name": "Pile-driver operators" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Construction laborers" },
+              {
+                "name": "Drywall installers, ceiling tile installers, etc",
+                "children": [
+                  { "name": "Drywall & ceiling tile installers" },
+                  { "name": "Tapers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Electricians" },
+              { "name": "Glaziers" },
+              {
+                "name": "Insulation workers",
+                "children": [
+                  { "name": "Insulation workers, floor, etc" },
+                  { "name": "Insulation workers, mechanical" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Painters & paperhangers",
+                "children": [
+                  { "name": "Painters, construction & maintenance" },
+                  { "name": "Paperhangers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Pipelayers, plumbers, etc",
+                "children": [
+                  { "name": "Pipelayers" },
+                  { "name": "Plumbers, pipefitters, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Plasterers & stucco masons" },
+              { "name": "Reinforcing iron & rebar workers" },
+              { "name": "Roofers" },
+              { "name": "Sheet metal workers" },
+              { "name": "Solar photovoltaic installers" },
+              { "name": "Structural iron & steel workers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Extraction workers",
+            "children": [
+              {
+                "name": "Derrick, rotary drill, etc",
+                "children": [
+                  { "name": "Derrick operators, oil & gas" },
+                  { "name": "Rotary drill operators, oil & gas" },
+                  { "name": "Service unit operators, oil, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Earth drillers, except oil & gas" },
+              { "name": "Explosives workers, ordnance handling experts, etc" },
+              { "name": "Extraction workers, all other" },
+              { "name": "Helpers--extraction workers" },
+              {
+                "name": "Mining machine operators",
+                "children": [
+                  { "name": "Continuous mining machine operators" },
+                  { "name": "Mine cutting & channeling machine operators" },
+                  { "name": "Mining machine operators, all other" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Rock splitters, quarry" },
+              { "name": "Roof bolters, mining" },
+              { "name": "Roustabouts, oil & gas" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Helpers, construction trades",
+            "children": [
+              { "name": "Helpers--brickmasons, blockmasons, etc" },
+              { "name": "Helpers--carpenters" },
+              { "name": "Helpers--electricians" },
+              { "name": "Helpers--painters, paperhangers, etc" },
+              { "name": "Helpers--pipelayers, plumbers, etc" },
+              { "name": "Helpers--roofers" },
+              { "name": "Helpers, construction trades, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other construction & related workers",
+            "children": [
+              { "name": "Construction & building inspectors" },
+              { "name": "Elevator installers & repairers" },
+              { "name": "Fence erectors" },
+              { "name": "Hazardous materials removal workers" },
+              { "name": "Highway maintenance workers" },
+              {
+                "name": "Miscellaneous construction & related workers",
+                "children": [
+                  { "name": "Construction & related workers, all other" },
+                  { "name": "Segmental pavers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Rail-track laying & maintenance equipment operators" },
+              { "name": "Septic tank servicers & sewer pipe cleaners" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of construction & extraction workers",
+            "children": [
+              {
+                "name": "First-line supervisors of construction trades & extraction workers"
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Education, training, etc",
+        "children": [
+          {
+            "name": "Librarians, curators, etc",
+            "children": [
+              {
+                "name": "Archivists, curators, etc",
+                "children": [
+                  { "name": "Archivists" },
+                  { "name": "Curators" },
+                  { "name": "Museum technicians & conservators" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Librarians" },
+              { "name": "Library technicians" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other education, training, etc",
+            "children": [
+              { "name": "Audio-visual & multimedia collections specialists" },
+              { "name": "Education, training, & library workers, all other" },
+              { "name": "Farm & home management advisors" },
+              { "name": "Instructional coordinators" },
+              { "name": "Teacher assistants" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other teachers & instructors",
+            "children": [
+              {
+                "name": "Adult basic & secondary education & literacy teachers & instructors"
+              },
+              { "name": "Self-enrichment education teachers" },
+              { "name": "Teachers & instructors, all other" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Postsecondary teachers",
+            "children": [
+              {
+                "name": "Arts, communications, etc",
+                "children": [
+                  { "name": "Art, drama, etc" },
+                  { "name": "Communications teachers, postsecondary" },
+                  {
+                    "name": "English language & literature teachers, postsecondary"
+                  },
+                  {
+                    "name": "Foreign language & literature teachers, postsecondary"
+                  },
+                  { "name": "History teachers, postsecondary" },
+                  { "name": "Philosophy & religion teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Business teachers, postsecondary" },
+              {
+                "name": "Education & library science teachers, postsecondary",
+                "children": [
+                  { "name": "Education teachers, postsecondary" },
+                  { "name": "Library science teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Engineering & architecture teachers, postsecondary",
+                "children": [
+                  { "name": "Architecture teachers, postsecondary" },
+                  { "name": "Engineering teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Health teachers, postsecondary",
+                "children": [
+                  { "name": "Health specialties teachers, postsecondary" },
+                  { "name": "Nursing instructors & teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Law, criminal justice, etc",
+                "children": [
+                  {
+                    "name": "Criminal justice & law enforcement teachers, postsecondary"
+                  },
+                  { "name": "Law teachers, postsecondary" },
+                  { "name": "Social work teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Life sciences teachers, postsecondary",
+                "children": [
+                  { "name": "Agricultural sciences teachers, postsecondary" },
+                  { "name": "Biological science teachers, postsecondary" },
+                  {
+                    "name": "Forestry & conservation science teachers, postsecondary"
+                  }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Math & computer teachers, postsecondary",
+                "children": [
+                  { "name": "Computer science teachers, postsecondary" },
+                  { "name": "Mathematical science teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous postsecondary teachers",
+                "children": [
+                  { "name": "Graduate teaching assistants" },
+                  { "name": "Home economics teachers, postsecondary" },
+                  { "name": "Postsecondary teachers, all other" },
+                  {
+                    "name": "Recreation & fitness studies teachers, postsecondary"
+                  },
+                  { "name": "Vocational education teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Physical sciences teachers, postsecondary",
+                "children": [
+                  { "name": "Atmospheric, earth, etc" },
+                  { "name": "Chemistry teachers, postsecondary" },
+                  { "name": "Environmental science teachers, postsecondary" },
+                  { "name": "Physics teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Social sciences teachers, postsecondary",
+                "children": [
+                  {
+                    "name": "Anthropology & archeology teachers, postsecondary"
+                  },
+                  { "name": "Area, ethnic, etc" },
+                  { "name": "Economics teachers, postsecondary" },
+                  { "name": "Geography teachers, postsecondary" },
+                  { "name": "Political science teachers, postsecondary" },
+                  { "name": "Psychology teachers, postsecondary" },
+                  { "name": "Social sciences teachers, postsecondary, etc" },
+                  { "name": "Sociology teachers, postsecondary" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Preschool, primary, etc",
+            "children": [
+              {
+                "name": "Elementary & middle school teachers",
+                "children": [
+                  { "name": "Career education teachers, middle school" },
+                  { "name": "Elementary school teachers, except special ed" },
+                  { "name": "Middle school teachers, except special ed" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Preschool & kindergarten teachers",
+                "children": [
+                  { "name": "Kindergarten teachers, except special education" },
+                  { "name": "Preschool teachers, except special ed" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Secondary school teachers",
+                "children": [
+                  { "name": "Career education teachers, secondary school" },
+                  { "name": "Secondary school teachers, except special ed" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Special education teachers",
+                "children": [
+                  { "name": "Special education teachers, all other" },
+                  {
+                    "name": "Special education teachers, kindergarten & elementary school"
+                  },
+                  { "name": "Special education teachers, middle school" },
+                  { "name": "Special education teachers, preschool" },
+                  { "name": "Special education teachers, secondary school" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Farming, fishing, etc",
+        "children": [
+          {
+            "name": "Agricultural workers",
+            "children": [
+              { "name": "Agricultural inspectors" },
+              { "name": "Animal breeders" },
+              { "name": "Graders & sorters, agricultural products" },
+              {
+                "name": "Miscellaneous agricultural workers",
+                "children": [
+                  { "name": "Agricultural equipment operators" },
+                  { "name": "Agricultural workers, all other" },
+                  { "name": "Farmworkers & laborers, crop, etc" },
+                  { "name": "Farmworkers, farm, etc" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          { "name": "Fishing & hunting workers" },
+          {
+            "name": "Forest, conservation, etc",
+            "children": [
+              { "name": "Forest & conservation workers" },
+              {
+                "name": "Logging workers",
+                "children": [
+                  { "name": "Fallers" },
+                  { "name": "Log graders & scalers" },
+                  { "name": "Logging equipment operators" },
+                  { "name": "Logging workers, all other" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of farming, fishing, etc",
+            "children": [
+              { "name": "First-line supervisors of farming, fishing, etc" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Food preparation & serving related",
+        "children": [
+          {
+            "name": "Cooks & food preparation workers",
+            "children": [
+              {
+                "name": "Cooks",
+                "children": [
+                  { "name": "Cooks, all other" },
+                  { "name": "Cooks, fast food" },
+                  { "name": "Cooks, institution & cafeteria" },
+                  { "name": "Cooks, private household" },
+                  { "name": "Cooks, restaurant" },
+                  { "name": "Cooks, short order" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Food preparation workers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Food & beverage serving workers",
+            "children": [
+              { "name": "Bartenders" },
+              {
+                "name": "Fast food & counter workers",
+                "children": [
+                  {
+                    "name": "Combined food preparation & serving workers, including fast food"
+                  },
+                  { "name": "Counter attendants, cafeteria, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Food servers, nonrestaurant" },
+              { "name": "Waiters & waitresses" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other food preparation & serving related workers",
+            "children": [
+              {
+                "name": "Dining room & cafeteria attendants & bartender helpers"
+              },
+              { "name": "Dishwashers" },
+              {
+                "name": "Food preparation & serving related workers, all other"
+              },
+              { "name": "Hosts & hostesses, restaurant, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of food preparation & serving workers",
+            "children": [
+              { "name": "Chefs & head cooks" },
+              {
+                "name": "First-line supervisors of food preparation & serving workers"
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Healthcare practitioners & technical",
+        "children": [
+          {
+            "name": "Health diagnosing & treating practitioners",
+            "children": [
+              { "name": "Audiologists" },
+              { "name": "Chiropractors" },
+              {
+                "name": "Dentists",
+                "children": [
+                  { "name": "Dentists, all other specialists" },
+                  { "name": "Dentists, general" },
+                  { "name": "Oral & maxillofacial surgeons" },
+                  { "name": "Orthodontists" },
+                  { "name": "Prosthodontists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Dietitians & nutritionists" },
+              {
+                "name": "Health diagnosing & treating practitioners, all other"
+              },
+              { "name": "Nurse anesthetists" },
+              { "name": "Nurse midwives" },
+              { "name": "Nurse practitioners" },
+              { "name": "Optometrists" },
+              { "name": "Pharmacists" },
+              { "name": "Physician assistants" },
+              {
+                "name": "Physicians & surgeons",
+                "children": [
+                  { "name": "Anesthesiologists" },
+                  { "name": "Family & general practitioners" },
+                  { "name": "Internists, general" },
+                  { "name": "Obstetricians & gynecologists" },
+                  { "name": "Pediatricians, general" },
+                  { "name": "Physicians & surgeons, all other" },
+                  { "name": "Psychiatrists" },
+                  { "name": "Surgeons" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Podiatrists" },
+              { "name": "Registered nurses" },
+              {
+                "name": "Therapists",
+                "children": [
+                  { "name": "Exercise physiologists" },
+                  { "name": "Occupational therapists" },
+                  { "name": "Physical therapists" },
+                  { "name": "Radiation therapists" },
+                  { "name": "Recreational therapists" },
+                  { "name": "Respiratory therapists" },
+                  { "name": "Speech-language pathologists" },
+                  { "name": "Therapists, all other" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Veterinarians" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Health technologists & technicians",
+            "children": [
+              {
+                "name": "Clinical laboratory technologists & technicians",
+                "children": [
+                  { "name": "Medical & clinical laboratory technicians" },
+                  { "name": "Medical & clinical laboratory technologists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Dental hygienists" },
+              {
+                "name": "Diagnostic related technologists & technicians",
+                "children": [
+                  { "name": "Cardiovascular technologists & technicians" },
+                  { "name": "Diagnostic medical sonographers" },
+                  { "name": "Magnetic resonance imaging technologists" },
+                  { "name": "Nuclear medicine technologists" },
+                  { "name": "Radiologic technologists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Emergency medical technicians & paramedics" },
+              {
+                "name": "Health practitioner support technologists & technicians",
+                "children": [
+                  { "name": "Dietetic technicians" },
+                  { "name": "Ophthalmic medical technicians" },
+                  { "name": "Pharmacy technicians" },
+                  { "name": "Psychiatric technicians" },
+                  { "name": "Respiratory therapy technicians" },
+                  { "name": "Surgical technologists" },
+                  { "name": "Veterinary technologists & technicians" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Licensed practical & licensed vocational nurses" },
+              { "name": "Medical records & health information technicians" },
+              {
+                "name": "Miscellaneous health technologists & technicians",
+                "children": [
+                  { "name": "Health technologists & technicians, all other" },
+                  { "name": "Hearing aid specialists" },
+                  { "name": "Orthotists & prosthetists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Opticians, dispensing" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other healthcare practitioners & technical",
+            "children": [
+              {
+                "name": "Miscellaneous health practitioners & technical workers",
+                "children": [
+                  { "name": "Athletic trainers" },
+                  { "name": "Genetic counselors" },
+                  {
+                    "name": "Healthcare practitioners & technical workers, all other"
+                  }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Occupational health & safety specialists & technicians",
+                "children": [
+                  { "name": "Occupational health & safety specialists" },
+                  { "name": "Occupational health & safety technicians" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Healthcare support",
+        "children": [
+          {
+            "name": "Nursing, psychiatric, etc",
+            "children": [
+              { "name": "Home health aides" },
+              { "name": "Nursing assistants" },
+              { "name": "Orderlies" },
+              { "name": "Psychiatric aides" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Occupational therapy & physical therapist assistants & aides",
+            "children": [
+              {
+                "name": "Occupational therapy assistants & aides",
+                "children": [
+                  { "name": "Occupational therapy aides" },
+                  { "name": "Occupational therapy assistants" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Physical therapist assistants & aides",
+                "children": [
+                  { "name": "Physical therapist aides" },
+                  { "name": "Physical therapist assistants" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other healthcare support",
+            "children": [
+              { "name": "Massage therapists" },
+              {
+                "name": "Miscellaneous healthcare support",
+                "children": [
+                  { "name": "Dental assistants" },
+                  { "name": "Healthcare support workers, all other" },
+                  { "name": "Medical assistants" },
+                  { "name": "Medical equipment preparers" },
+                  { "name": "Medical transcriptionists" },
+                  { "name": "Pharmacy aides" },
+                  { "name": "Phlebotomists" },
+                  {
+                    "name": "Veterinary assistants & laboratory animal caretakers"
+                  }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Installation, maintenance, etc",
+        "children": [
+          {
+            "name": "Electrical & electronic equipment mechanics, installers, etc",
+            "children": [
+              { "name": "Computer, automated teller, etc" },
+              {
+                "name": "Miscellaneous electrical & electronic equipment mechanics, installers, etc",
+                "children": [
+                  { "name": "Avionics technicians" },
+                  { "name": "Electric motor, power tool, etc" },
+                  {
+                    "name": "Electrical & electronics installers & repairers, transportation equipment"
+                  },
+                  {
+                    "name": "Electrical & electronics repairers, commercial & industrial equipment"
+                  },
+                  {
+                    "name": "Electrical & electronics repairers, powerhouse, etc"
+                  },
+                  {
+                    "name": "Electronic equipment installers & repairers, motor vehicles"
+                  },
+                  {
+                    "name": "Electronic home entertainment equipment installers & repairers"
+                  },
+                  { "name": "Security & fire alarm systems installers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Radio & telecommunications equipment installers & repairers",
+                "children": [
+                  { "name": "Radio, cellular, etc" },
+                  {
+                    "name": "Telecommunications equipment installers & repairers, except line installers"
+                  }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other installation, maintenance, etc",
+            "children": [
+              {
+                "name": "Control & valve installers & repairers",
+                "children": [
+                  {
+                    "name": "Control & valve installers & repairers, except mechanical door"
+                  },
+                  { "name": "Mechanical door repairers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Heating, air conditioning, etc" },
+              { "name": "Home appliance repairers" },
+              {
+                "name": "Industrial machinery installation, repair, etc",
+                "children": [
+                  { "name": "Industrial machinery mechanics" },
+                  { "name": "Maintenance workers, machinery" },
+                  { "name": "Millwrights" },
+                  {
+                    "name": "Refractory materials repairers, except brickmasons"
+                  }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Line installers & repairers",
+                "children": [
+                  { "name": "Electrical power-line installers & repairers" },
+                  { "name": "Telecommunications line installers & repairers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Maintenance & repair workers, general" },
+              {
+                "name": "Miscellaneous installation, maintenance, etc",
+                "children": [
+                  { "name": "Coin, vending, etc" },
+                  { "name": "Commercial divers" },
+                  { "name": "Fabric menders, except garment" },
+                  { "name": "Helpers--installation, maintenance, etc" },
+                  {
+                    "name": "Installation, maintenance, & repair workers, all other"
+                  },
+                  { "name": "Locksmiths & safe repairers" },
+                  { "name": "Manufactured building & mobile home installers" },
+                  { "name": "Riggers" },
+                  { "name": "Signal & track switch repairers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Precision instrument & equipment repairers",
+                "children": [
+                  { "name": "Camera & photographic equipment repairers" },
+                  { "name": "Medical equipment repairers" },
+                  { "name": "Musical instrument repairers & tuners" },
+                  {
+                    "name": "Precision instrument & equipment repairers, all other"
+                  },
+                  { "name": "Watch repairers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Wind turbine service technicians" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of installation, maintenance, etc",
+            "children": [
+              { "name": "First-line supervisors of mechanics, installers, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Vehicle & mobile equipment mechanics, installers, etc",
+            "children": [
+              { "name": "Aircraft mechanics & service technicians" },
+              {
+                "name": "Automotive technicians & repairers",
+                "children": [
+                  { "name": "Automotive body & related repairers" },
+                  { "name": "Automotive glass installers & repairers" },
+                  { "name": "Automotive service technicians & mechanics" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Bus & truck mechanics & diesel engine specialists" },
+              {
+                "name": "Heavy vehicle & mobile equipment service technicians & mechanics",
+                "children": [
+                  { "name": "Farm equipment mechanics & service technicians" },
+                  {
+                    "name": "Mobile heavy equipment mechanics, except engines"
+                  },
+                  { "name": "Rail car repairers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous vehicle & mobile equipment mechanics, installers, etc",
+                "children": [
+                  { "name": "Bicycle repairers" },
+                  { "name": "Recreational vehicle service technicians" },
+                  { "name": "Tire repairers & changers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Small engine mechanics",
+                "children": [
+                  { "name": "Motorboat mechanics & service technicians" },
+                  { "name": "Motorcycle mechanics" },
+                  {
+                    "name": "Outdoor power equipment & other small engine mechanics"
+                  }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Legal",
+        "children": [
+          {
+            "name": "Lawyers, judges, etc",
+            "children": [
+              {
+                "name": "Judges, magistrates, etc",
+                "children": [
+                  { "name": "Administrative law judges, adjudicators, etc" },
+                  { "name": "Arbitrators, mediators, etc" },
+                  { "name": "Judges, magistrate judges, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Lawyers & judicial law clerks",
+                "children": [
+                  { "name": "Judicial law clerks" },
+                  { "name": "Lawyers" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Legal support workers",
+            "children": [
+              {
+                "name": "Miscellaneous legal support workers",
+                "children": [
+                  { "name": "Court reporters" },
+                  { "name": "Legal support workers, all other" },
+                  { "name": "Title examiners, abstractors, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Paralegals & legal assistants" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Life, physical, etc",
+        "children": [
+          {
+            "name": "Life scientists",
+            "children": [
+              {
+                "name": "Agricultural & food scientists",
+                "children": [
+                  { "name": "Animal scientists" },
+                  { "name": "Food scientists & technologists" },
+                  { "name": "Soil & plant scientists" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Biological scientists",
+                "children": [
+                  { "name": "Biochemists & biophysicists" },
+                  { "name": "Biological scientists, all other" },
+                  { "name": "Microbiologists" },
+                  { "name": "Zoologists & wildlife biologists" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Conservation scientists & foresters",
+                "children": [
+                  { "name": "Conservation scientists" },
+                  { "name": "Foresters" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Life scientists, all other" },
+              {
+                "name": "Medical scientists",
+                "children": [
+                  { "name": "Epidemiologists" },
+                  { "name": "Medical scientists, except epidemiologists" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Life, physical, & social science technicians",
+            "children": [],
+            "_collapsed": true
+          },
+          { "name": "Life, physical, etc" },
+          { "name": "Agricultural & food science technicians" },
+          { "name": "Life, physical, etc" },
+          { "name": "Biological technicians" },
+          { "name": "Life, physical, etc" },
+          { "name": "Chemical technicians" },
+          { "name": "Life, physical, etc" },
+          { "name": "Geological & petroleum technicians" },
+          { "name": "Life, physical, etc", "children": [], "_collapsed": true },
+          {
+            "name": "Miscellaneous life, physical, etc",
+            "children": [
+              {
+                "name": "Environmental science & protection technicians, including health"
+              },
+              { "name": "Forensic science technicians" },
+              { "name": "Forest & conservation technicians" },
+              {
+                "name": "Life, physical, & social science technicians, all other"
+              }
+            ],
+            "_collapsed": true
+          },
+          { "name": "Life, physical, etc" },
+          { "name": "Life, physical, etc" },
+          { "name": "Life, physical, etc" },
+          { "name": "Life, physical, etc" },
+          { "name": "Life, physical, etc" },
+          { "name": "Nuclear technicians" },
+          { "name": "Life, physical, etc" },
+          { "name": "Social science research assistants" },
+          {
+            "name": "Physical scientists",
+            "children": [
+              {
+                "name": "Astronomers & physicists",
+                "children": [
+                  { "name": "Astronomers" },
+                  { "name": "Physicists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Atmospheric & space scientists" },
+              {
+                "name": "Chemists & materials scientists",
+                "children": [
+                  { "name": "Chemists" },
+                  { "name": "Materials scientists" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Environmental scientists & geoscientists",
+                "children": [
+                  {
+                    "name": "Environmental scientists & specialists, including health"
+                  },
+                  {
+                    "name": "Geoscientists, except hydrologists & geographers"
+                  },
+                  { "name": "Hydrologists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Physical scientists, all other" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Social scientists & related workers",
+            "children": [
+              { "name": "Economists" },
+              {
+                "name": "Miscellaneous social scientists & related workers",
+                "children": [
+                  { "name": "Anthropologists & archeologists" },
+                  { "name": "Geographers" },
+                  { "name": "Historians" },
+                  { "name": "Political scientists" },
+                  { "name": "Social scientists & related workers, all other" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Psychologists",
+                "children": [
+                  { "name": "Clinical, counseling, etc" },
+                  { "name": "Industrial-organizational psychologists" },
+                  { "name": "Psychologists, all other" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Sociologists" },
+              { "name": "Survey researchers" },
+              { "name": "Urban & regional planners" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Management",
+        "children": [
+          {
+            "name": "Advertising, marketing, etc",
+            "children": [
+              { "name": "Advertising & promotions managers" },
+              {
+                "name": "Marketing & sales managers",
+                "children": [
+                  { "name": "Marketing managers" },
+                  { "name": "Sales managers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Public relations & fundraising managers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Operations specialties managers",
+            "children": [
+              { "name": "Administrative services managers" },
+              { "name": "Compensation & benefits managers" },
+              { "name": "Computer & information systems managers" },
+              { "name": "Financial managers" },
+              { "name": "Human resources managers" },
+              { "name": "Industrial production managers" },
+              { "name": "Purchasing managers" },
+              { "name": "Training & development managers" },
+              { "name": "Transportation, storage, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other management",
+            "children": [
+              { "name": "Architectural & engineering managers" },
+              { "name": "Construction managers" },
+              {
+                "name": "Education administrators",
+                "children": [
+                  { "name": "Education administrators, all other" },
+                  {
+                    "name": "Education administrators, elementary & secondary school"
+                  },
+                  { "name": "Education administrators, postsecondary" },
+                  {
+                    "name": "Education administrators, preschool & childcare program"
+                  }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Emergency management directors" },
+              { "name": "Farmers, ranchers, etc" },
+              { "name": "Food service managers" },
+              { "name": "Funeral service managers" },
+              { "name": "Gaming managers" },
+              { "name": "Lodging managers" },
+              { "name": "Managers, all other" },
+              { "name": "Medical & health services managers" },
+              { "name": "Natural sciences managers" },
+              { "name": "Postmasters & mail superintendents" },
+              { "name": "Property, real estate, etc" },
+              { "name": "Social & community service managers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Top executives",
+            "children": [
+              { "name": "Chief executives" },
+              { "name": "General & operations managers" },
+              { "name": "Legislators" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Office & administrative support",
+        "children": [
+          {
+            "name": "Communications equipment operators",
+            "children": [
+              { "name": "Communications equipment operators, all other" },
+              { "name": "Switchboard operators, including answering service" },
+              { "name": "Telephone operators" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Financial clerks",
+            "children": [
+              { "name": "Bill & account collectors" },
+              { "name": "Billing & posting clerks" },
+              { "name": "Bookkeeping, accounting, etc" },
+              { "name": "Financial clerks, all other" },
+              { "name": "Gaming cage workers" },
+              { "name": "Payroll & timekeeping clerks" },
+              { "name": "Procurement clerks" },
+              { "name": "Tellers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Information & record clerks",
+            "children": [
+              { "name": "Brokerage clerks" },
+              { "name": "Correspondence clerks" },
+              { "name": "Court, municipal, etc" },
+              { "name": "Credit authorizers, checkers, etc" },
+              { "name": "Customer service representatives" },
+              { "name": "Eligibility interviewers, government programs" },
+              { "name": "File clerks" },
+              { "name": "Hotel, motel, etc" },
+              {
+                "name": "Human resources assistants, except payroll & timekeeping"
+              },
+              { "name": "Information & record clerks, all other" },
+              { "name": "Interviewers, except eligibility & loan" },
+              { "name": "Library assistants, clerical" },
+              { "name": "Loan interviewers & clerks" },
+              { "name": "New accounts clerks" },
+              { "name": "Order clerks" },
+              { "name": "Receptionists & information clerks" },
+              {
+                "name": "Reservation & transportation ticket agents & travel clerks"
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Material recording, scheduling, etc",
+            "children": [
+              { "name": "Cargo & freight agents" },
+              { "name": "Couriers & messengers" },
+              {
+                "name": "Dispatchers",
+                "children": [
+                  { "name": "Dispatchers, except police, etc" },
+                  { "name": "Police, fire, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Meter readers, utilities" },
+              {
+                "name": "Postal service workers",
+                "children": [
+                  { "name": "Postal service clerks" },
+                  { "name": "Postal service mail carriers" },
+                  { "name": "Postal service mail sorters, processors, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Production, planning, etc" },
+              { "name": "Shipping, receiving, etc" },
+              { "name": "Stock clerks & order fillers" },
+              { "name": "Weighers, measurers, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other office & administrative support workers",
+            "children": [
+              { "name": "Computer operators" },
+              {
+                "name": "Data entry & information processing workers",
+                "children": [
+                  { "name": "Data entry keyers" },
+                  { "name": "Word processors & typists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Desktop publishers" },
+              { "name": "Insurance claims & policy processing clerks" },
+              {
+                "name": "Mail clerks & mail machine operators, except postal service"
+              },
+              { "name": "Office & administrative support workers, all other" },
+              { "name": "Office clerks, general" },
+              { "name": "Office machine operators, except computer" },
+              { "name": "Proofreaders & copy markers" },
+              { "name": "Statistical assistants" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Secretaries & administrative assistants",
+            "children": [
+              {
+                "name": "Executive secretaries & executive administrative assistants"
+              },
+              { "name": "Legal secretaries" },
+              { "name": "Medical secretaries" },
+              {
+                "name": "Secretaries & administrative assistants, except legal, etc"
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of office & administrative support workers",
+            "children": [
+              {
+                "name": "First-line supervisors of office & administrative support workers"
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Personal care & service",
+        "children": [
+          {
+            "name": "Animal care & service workers",
+            "children": [
+              { "name": "Animal trainers" },
+              { "name": "Nonfarm animal caretakers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Baggage porters, bellhops, etc",
+            "children": [
+              { "name": "Baggage porters & bellhops" },
+              { "name": "Concierges" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Entertainment attendants & related workers",
+            "children": [
+              {
+                "name": "Gaming services workers",
+                "children": [
+                  { "name": "Gaming & sports book writers & runners" },
+                  { "name": "Gaming dealers" },
+                  { "name": "Gaming service workers, all other" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous entertainment attendants & related workers",
+                "children": [
+                  { "name": "Amusement & recreation attendants" },
+                  { "name": "Costume attendants" },
+                  {
+                    "name": "Entertainment attendants & related workers, all other"
+                  },
+                  { "name": "Locker room, coatroom, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Motion picture projectionists" },
+              { "name": "Ushers, lobby attendants, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Funeral service workers",
+            "children": [
+              { "name": "Embalmers" },
+              { "name": "Funeral attendants" },
+              { "name": "Morticians, undertakers, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other personal care & service workers",
+            "children": [
+              { "name": "Childcare workers" },
+              { "name": "Personal care & service workers, all other" },
+              { "name": "Personal care aides" },
+              {
+                "name": "Recreation & fitness workers",
+                "children": [
+                  { "name": "Fitness trainers & aerobics instructors" },
+                  { "name": "Recreation workers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Residential advisors" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Personal appearance workers",
+            "children": [
+              {
+                "name": "Barbers, hairdressers, etc",
+                "children": [
+                  { "name": "Barbers" },
+                  { "name": "Hairdressers, hairstylists, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous personal appearance workers",
+                "children": [
+                  { "name": "Makeup artists, theatrical & performance" },
+                  { "name": "Manicurists & pedicurists" },
+                  { "name": "Shampooers" },
+                  { "name": "Skincare specialists" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of personal care & service workers",
+            "children": [
+              {
+                "name": "First-line supervisors of gaming workers",
+                "children": [
+                  { "name": "Gaming supervisors" },
+                  { "name": "Slot supervisors" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "First-line supervisors of personal service workers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Tour & travel guides",
+            "children": [
+              { "name": "Tour guides & escorts" },
+              { "name": "Travel guides" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Production",
+        "children": [
+          {
+            "name": "Assemblers & fabricators",
+            "children": [
+              { "name": "Aircraft structure, surfaces, etc" },
+              {
+                "name": "Electrical, electronics, etc",
+                "children": [
+                  { "name": "Coil winders, tapers, etc" },
+                  { "name": "Electrical & electronic equipment assemblers" },
+                  { "name": "Electromechanical equipment assemblers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Engine & other machine assemblers" },
+              {
+                "name": "Miscellaneous assemblers & fabricators",
+                "children": [
+                  { "name": "Assemblers & fabricators, all other" },
+                  { "name": "Fiberglass laminators & fabricators" },
+                  { "name": "Team assemblers" },
+                  { "name": "Timing device assemblers & adjusters" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Structural metal fabricators & fitters" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Food processing workers",
+            "children": [
+              { "name": "Bakers" },
+              {
+                "name": "Butchers & other meat, poultry, etc",
+                "children": [
+                  { "name": "Butchers & meat cutters" },
+                  { "name": "Meat, poultry, etc" },
+                  { "name": "Slaughterers & meat packers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous food processing workers",
+                "children": [
+                  { "name": "Food & tobacco roasting, baking, etc" },
+                  { "name": "Food batchmakers" },
+                  { "name": "Food cooking machine operators & tenders" },
+                  { "name": "Food processing workers, all other" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Metal workers & plastic workers",
+            "children": [
+              {
+                "name": "Computer control programmers & operators",
+                "children": [
+                  {
+                    "name": "Computer numerically controlled machine tool programmers, metal & plastic"
+                  },
+                  {
+                    "name": "Computer-controlled machine tool operators, metal & plastic"
+                  }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Forming machine setters, operators, etc",
+                "children": [
+                  {
+                    "name": "Extruding & drawing machine setters, operators, etc"
+                  },
+                  { "name": "Forging machine setters, operators, etc" },
+                  { "name": "Rolling machine setters, operators, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Machine tool cutting setters, operators, etc",
+                "children": [
+                  { "name": "Cutting, punching, etc" },
+                  {
+                    "name": "Drilling & boring machine tool setters, operators, etc"
+                  },
+                  { "name": "Grinding, lapping, etc" },
+                  {
+                    "name": "Lathe & turning machine tool setters, operators, etc"
+                  },
+                  {
+                    "name": "Milling & planing machine setters, operators, etc"
+                  }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Machinists" },
+              {
+                "name": "Metal furnace operators, tenders, etc",
+                "children": [
+                  { "name": "Metal-refining furnace operators & tenders" },
+                  { "name": "Pourers & casters, metal" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous metal workers & plastic workers",
+                "children": [
+                  { "name": "Heat treating equipment setters, operators, etc" },
+                  { "name": "Layout workers, metal & plastic" },
+                  { "name": "Metal workers & plastic workers, all other" },
+                  {
+                    "name": "Plating & coating machine setters, operators, etc"
+                  },
+                  { "name": "Tool grinders, filers, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Model makers & patternmakers, metal & plastic",
+                "children": [
+                  { "name": "Model makers, metal & plastic" },
+                  { "name": "Patternmakers, metal & plastic" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Molders & molding machine setters, operators, etc",
+                "children": [
+                  { "name": "Foundry mold & coremakers" },
+                  { "name": "Molding, coremaking, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Multiple machine tool setters, operators, etc" },
+              { "name": "Tool & die makers" },
+              {
+                "name": "Welding, soldering, etc",
+                "children": [
+                  { "name": "Welders, cutters, etc" },
+                  {
+                    "name": "Welding, soldering, & brazing machine setters, operators, & tenders"
+                  }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other production",
+            "children": [
+              {
+                "name": "Chemical processing machine setters, operators, etc",
+                "children": [
+                  { "name": "Chemical equipment operators & tenders" },
+                  { "name": "Separating, filtering, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Crushing, grinding, etc",
+                "children": [
+                  {
+                    "name": "Crushing, grinding, & polishing machine setters, operators, & tenders"
+                  },
+                  { "name": "Grinding & polishing workers, hand" },
+                  {
+                    "name": "Mixing & blending machine setters, operators, etc"
+                  }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Cutting workers",
+                "children": [
+                  { "name": "Cutters & trimmers, hand" },
+                  {
+                    "name": "Cutting & slicing machine setters, operators, etc"
+                  }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Extruding, forming, etc" },
+              { "name": "Furnace, kiln, etc" },
+              { "name": "Inspectors, testers, etc" },
+              { "name": "Jewelers & precious stone & metal workers" },
+              {
+                "name": "Medical, dental, etc",
+                "children": [
+                  { "name": "Dental laboratory technicians" },
+                  { "name": "Medical appliance technicians" },
+                  { "name": "Ophthalmic laboratory technicians" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Miscellaneous production workers",
+                "children": [
+                  { "name": "Adhesive bonding machine operators & tenders" },
+                  { "name": "Cleaning, washing, etc" },
+                  {
+                    "name": "Cooling & freezing equipment operators & tenders"
+                  },
+                  { "name": "Etchers & engravers" },
+                  { "name": "Helpers--production workers" },
+                  { "name": "Molders, shapers, etc" },
+                  { "name": "Paper goods machine setters, operators, etc" },
+                  { "name": "Production workers, all other" },
+                  { "name": "Tire builders" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Packaging & filling machine operators & tenders" },
+              {
+                "name": "Painting workers",
+                "children": [
+                  { "name": "Coating, painting, etc" },
+                  { "name": "Painters, transportation equipment" },
+                  { "name": "Painting, coating, etc" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Photographic process workers & processing machine operators"
+              },
+              { "name": "Semiconductor processors" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Plant & system operators",
+            "children": [
+              {
+                "name": "Miscellaneous plant & system operators",
+                "children": [
+                  { "name": "Chemical plant & system operators" },
+                  { "name": "Gas plant operators" },
+                  {
+                    "name": "Petroleum pump system operators, refinery operators, etc"
+                  },
+                  { "name": "Plant & system operators, all other" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Power plant operators, distributors, etc",
+                "children": [
+                  { "name": "Nuclear power reactor operators" },
+                  { "name": "Power distributors & dispatchers" },
+                  { "name": "Power plant operators" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Stationary engineers & boiler operators" },
+              {
+                "name": "Water & wastewater treatment plant & system operators"
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Printing workers",
+            "children": [
+              { "name": "Prepress technicians & workers" },
+              { "name": "Print binding & finishing workers" },
+              { "name": "Printing press operators" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of production workers",
+            "children": [
+              {
+                "name": "First-line supervisors of production & operating workers"
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Textile, apparel, etc",
+            "children": [
+              { "name": "Laundry & dry-cleaning workers" },
+              {
+                "name": "Miscellaneous textile, apparel, etc",
+                "children": [
+                  {
+                    "name": "Extruding & forming machine setters, operators, etc"
+                  },
+                  { "name": "Fabric & apparel patternmakers" },
+                  {
+                    "name": "Textile, apparel, & furnishings workers, all other"
+                  },
+                  { "name": "Upholsterers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Pressers, textile, etc" },
+              { "name": "Sewing machine operators" },
+              {
+                "name": "Shoe & leather workers",
+                "children": [
+                  { "name": "Shoe & leather workers & repairers" },
+                  { "name": "Shoe machine operators & tenders" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Tailors, dressmakers, etc",
+                "children": [
+                  { "name": "Sewers, hand" },
+                  { "name": "Tailors, dressmakers, & custom sewers" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Textile machine setters, operators, etc",
+                "children": [
+                  {
+                    "name": "Textile bleaching & dyeing machine operators & tenders"
+                  },
+                  { "name": "Textile cutting machine setters, operators, etc" },
+                  {
+                    "name": "Textile knitting & weaving machine setters, operators, etc"
+                  },
+                  { "name": "Textile winding, twisting, etc" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Woodworkers",
+            "children": [
+              { "name": "Cabinetmakers & bench carpenters" },
+              { "name": "Furniture finishers" },
+              {
+                "name": "Model makers & patternmakers, wood",
+                "children": [
+                  { "name": "Model makers, wood" },
+                  { "name": "Patternmakers, wood" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Woodworkers, all other" },
+              {
+                "name": "Woodworking machine setters, operators, etc",
+                "children": [
+                  { "name": "Sawing machine setters, operators, etc" },
+                  {
+                    "name": "Woodworking machine setters, operators, & tenders, except sawing"
+                  }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Protective service",
+        "children": [
+          {
+            "name": "Fire fighting & prevention workers",
+            "children": [
+              {
+                "name": "Fire inspectors",
+                "children": [
+                  { "name": "Fire inspectors & investigators" },
+                  { "name": "Forest fire inspectors & prevention specialists" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Firefighters" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Law enforcement workers",
+            "children": [
+              {
+                "name": "Bailiffs, correctional officers, etc",
+                "children": [
+                  { "name": "Bailiffs" },
+                  { "name": "Correctional officers & jailers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Detectives & criminal investigators" },
+              { "name": "Fish & game wardens" },
+              { "name": "Parking enforcement workers" },
+              {
+                "name": "Police officers",
+                "children": [
+                  { "name": "Police & sheriff's patrol officers" },
+                  { "name": "Transit & railroad police" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other protective service workers",
+            "children": [
+              { "name": "Animal control workers" },
+              {
+                "name": "Miscellaneous protective service workers",
+                "children": [
+                  { "name": "Crossing guards" },
+                  { "name": "Lifeguards, ski patrol, etc" },
+                  { "name": "Protective service workers, all other" },
+                  { "name": "Transportation security screeners" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Private detectives & investigators" },
+              {
+                "name": "Security guards & gaming surveillance officers",
+                "children": [
+                  {
+                    "name": "Gaming surveillance officers & gaming investigators"
+                  },
+                  { "name": "Security guards" }
+                ],
+                "_collapsed": true
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of protective service workers",
+            "children": [
+              {
+                "name": "First-line supervisors of fire fighting & prevention workers"
+              },
+              {
+                "name": "First-line supervisors of law enforcement workers",
+                "children": [
+                  { "name": "First-line supervisors of correctional officers" },
+                  { "name": "First-line supervisors of police & detectives" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "First-line supervisors of protective service workers, all other"
+              }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Sales & related",
+        "children": [
+          {
+            "name": "Other sales & related workers",
+            "children": [
+              {
+                "name": "Miscellaneous sales & related workers",
+                "children": [
+                  {
+                    "name": "Door-to-door sales workers, news & street vendors, etc"
+                  },
+                  { "name": "Sales & related workers, all other" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Models, demonstrators, etc",
+                "children": [
+                  { "name": "Demonstrators & product promoters" },
+                  { "name": "Models" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Real estate brokers & sales agents",
+                "children": [
+                  { "name": "Real estate brokers" },
+                  { "name": "Real estate sales agents" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Sales engineers" },
+              { "name": "Telemarketers" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Retail sales workers",
+            "children": [
+              {
+                "name": "Cashiers & similar",
+                "children": [],
+                "_collapsed": true
+              },
+              { "name": "Cashiers" },
+              { "name": "Cashiers" },
+              { "name": "Cashiers" },
+              { "name": "Gaming change persons & booth cashiers" },
+              {
+                "name": "Counter & rental clerks & parts salespersons",
+                "children": [
+                  { "name": "Counter & rental clerks" },
+                  { "name": "Parts salespersons" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Retail salespersons" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Sales representatives, services",
+            "children": [
+              { "name": "Advertising sales agents" },
+              { "name": "Insurance sales agents" },
+              { "name": "Sales representatives, services, etc" },
+              { "name": "Securities, commodities, etc" },
+              { "name": "Travel agents" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Sales representatives, wholesale & manufacturing",
+            "children": [
+              {
+                "name": "Sales representatives, wholesale & manufacturing, etc"
+              },
+              {
+                "name": "Sales representatives, wholesale & manufacturing, except technical & scientific products"
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of sales workers",
+            "children": [
+              { "name": "First-line supervisors of non-retail sales workers" },
+              { "name": "First-line supervisors of retail sales workers" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      },
+      {
+        "name": "Transportation & material moving",
+        "children": [
+          {
+            "name": "Air transportation workers",
+            "children": [
+              {
+                "name": "Air traffic controllers & airfield operations specialists",
+                "children": [
+                  { "name": "Air traffic controllers" },
+                  { "name": "Airfield operations specialists" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Aircraft pilots & flight engineers",
+                "children": [
+                  { "name": "Airline pilots, copilots, etc" },
+                  { "name": "Commercial pilots" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Flight attendants" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Material moving workers",
+            "children": [
+              { "name": "Conveyor operators & tenders" },
+              { "name": "Crane & tower operators" },
+              {
+                "name": "Dredge, excavating, etc",
+                "children": [
+                  { "name": "Dredge operators" },
+                  {
+                    "name": "Excavating & loading machine & dragline operators"
+                  },
+                  { "name": "Loading machine operators, underground mining" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Hoist & winch operators" },
+              { "name": "Industrial truck & tractor operators" },
+              {
+                "name": "Laborers & material movers, hand",
+                "children": [
+                  { "name": "Cleaners of vehicles & equipment" },
+                  { "name": "Laborers & freight, stock, etc" },
+                  { "name": "Machine feeders & offbearers" },
+                  { "name": "Packers & packagers, hand" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Material moving workers, all other" },
+              { "name": "Mine shuttle car operators" },
+              {
+                "name": "Pumping station operators",
+                "children": [
+                  { "name": "Gas compressor & gas pumping station operators" },
+                  { "name": "Pump operators, except wellhead pumpers" },
+                  { "name": "Wellhead pumpers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Refuse & recyclable material collectors" },
+              { "name": "Tank car, truck, etc" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Motor vehicle operators",
+            "children": [
+              {
+                "name": "Ambulance drivers & attendants, except emergency medical technicians"
+              },
+              {
+                "name": "Bus drivers",
+                "children": [
+                  { "name": "Bus drivers, school or special client" },
+                  { "name": "Bus drivers, transit & intercity" }
+                ],
+                "_collapsed": true
+              },
+              {
+                "name": "Drivers, sales workers & truck drivers",
+                "children": [
+                  { "name": "Drivers & sales workers" },
+                  { "name": "Heavy & tractor-trailer truck drivers" },
+                  { "name": "Light truck or delivery services drivers" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Motor vehicle operators, all other" },
+              { "name": "Taxi drivers & chauffeurs" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Other transportation workers",
+            "children": [
+              { "name": "Automotive & watercraft service attendants" },
+              { "name": "Bridge & lock tenders" },
+              { "name": "Parking lot attendants" },
+              { "name": "Traffic technicians" },
+              { "name": "Transportation attendants, except flight attendants" },
+              { "name": "Transportation inspectors" },
+              { "name": "Transportation workers, all other" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Rail transportation workers",
+            "children": [
+              {
+                "name": "Locomotive engineers & operators",
+                "children": [
+                  { "name": "Locomotive engineers" },
+                  { "name": "Locomotive firers" },
+                  { "name": "Rail yard engineers, dinkey operators, etc" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Rail transportation workers, all other" },
+              { "name": "Railroad brake, signal, etc" },
+              { "name": "Railroad conductors & yardmasters" },
+              { "name": "Subway & streetcar operators" }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Supervisors of transportation & material moving workers",
+            "children": [
+              { "name": "Aircraft cargo handling supervisors" },
+              { "name": "First-line supervisors of helpers, laborers, etc" },
+              {
+                "name": "First-line supervisors of transportation & material-moving machine & vehicle operators"
+              }
+            ],
+            "_collapsed": true
+          },
+          {
+            "name": "Water transportation workers",
+            "children": [
+              { "name": "Sailors & marine oilers" },
+              {
+                "name": "Ship & boat captains & operators",
+                "children": [
+                  { "name": "Captains, mates, etc" },
+                  { "name": "Motorboat operators" }
+                ],
+                "_collapsed": true
+              },
+              { "name": "Ship engineers" }
+            ],
+            "_collapsed": true
+          }
+        ],
+        "_collapsed": true
+      }
+    ],
+    "_collapsed": true
+  }
+]

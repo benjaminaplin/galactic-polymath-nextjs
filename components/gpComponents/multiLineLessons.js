@@ -24,7 +24,7 @@ const MultiLineLessons = () => {
        <img
          alt="science lesson image"
          className="science-lesson-image"
-         src="https://gdurl.com/m8Iy"
+         src="https://gdurl.com/jmGe"
        />
      </div>
      <div className="science-lesson-text">

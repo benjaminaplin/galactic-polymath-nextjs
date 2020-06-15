@@ -1,0 +1,95 @@
+.small-data-table {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+}
+svg {
+  display: none;
+}
+@media (min-width: 992px) {
+  .small-data-table {
+    display: none;
+  }
+  svg {
+    display: block;
+  }
+}
+
+a {
+  color: #2c83c3;
+}
+a:hover {
+  color: rgb(104, 18, 209);
+  text-decoration: none;
+}
+
+svg {
+  margin: 10px;
+  border: 2px dashed #eeeeee;
+}
+
+.small-drill-down-option {
+  margin-bottom: 0.5em;
+}
+
+#small-drill-down-back {
+  font-size: 1.4em;
+  border: 3px solid #2c83c3;
+  padding: 0.25em;
+  border-radius: 10px;
+  display: none;
+}
+
+#small-drill-down-back:hover {
+  border: 3px solid rgb(104, 18, 209);
+}
+
+.end-only-data {
+  display: none;
+}
+
+.show-end-only-data .end-only-data {
+  display: table-row;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: #2c83c3;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 14px sans-serif;
+  font-family: "Montserrat", sans-serif;
+  fill: #090816;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.popup {
+  position: absolute;
+  display: none;
+  width: 500px;
+  height: auto;
+  padding: 1rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.popup.show {
+  display: block;
+  background: #eeeeee;
+  border: 1px solid black;
+}

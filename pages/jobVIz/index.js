@@ -1,14 +1,27 @@
-import React, {Component} from "react";
+import React, { useEffect } from "react";
 import Layout from "../../components/layout/layout";
+import initJobVizGraphic from "./initJobVizGraphic";
+import Header from "../../components/layout/header.js";
 // import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 
-class JobViz extends Component {
-  render(){
+const JobViz = () => {
+
+	useEffect(()=>{
+		initJobVizGraphic()
+		console.log('we loaded')
+		return function cleanUp() {
+			const svgs = document.getElementsByTagName("svg");
+			console.log('cleanin it up!', svgs)
+			svgs.length > 0 && svgs[0].remove();
+			console.log('cleaned it up!', svgs)
+		}
+	},[])
+
     return (
-      <Layout footer={false}>
+      <>
+      <Header />
         <div className="job-viz-body-grid">
-          <div style={{ width: "70%", textAlign: "center" }}>
-            yay
+          <div className="svg-container" />
             {/* <Parallax
               pages={2}
               ref={(ref) => (this.parallax = ref)}
@@ -35,10 +48,8 @@ class JobViz extends Component {
               </ParallaxLayer>
             </Parallax> */}
           </div>
-        </div>
-      </Layout>
+      </>
     );
-  }
 }
 
 export default JobViz;
