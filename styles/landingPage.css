@@ -53,6 +53,10 @@
   text-align: center;
 }
 
+.stem-image {
+  width: 100%;
+}
+
 .summary-statement-row {
   padding: 1rem;
   grid-row: 4 / 5;
@@ -79,10 +83,15 @@
 }
 
 .job-viz-db-container {
-  text-align: center;
+  display: flex;
   padding: 1rem;
   grid-row: 11 / 12;
   grid-column: 1 / 1;
+}
+
+.job-viz-db-img {
+  height: 614px;
+  width: 553px;
 }
 
 .gp-signup-container {
