@@ -20,9 +20,9 @@ function LandingPageBody() {
             </p>
           </div>
         </div>
-        {/* <div className="stem-image-row">
-          <img src="https://gdurl.com/UWKg" />
-        </div> */}
+        <div className="stem-image-row">
+          <img className="stem-image" src="https://gdurl.com/UWKg" />
+        </div>
         <div className="summary-statement-row">
           <p>
             We work directly with experts to translate complex knowledge into
@@ -38,9 +38,11 @@ function LandingPageBody() {
           </p>
         </div>
         <MultiLineLessons />
-        <div className="jobviz-iframe-container">
+        {/* <div className="jobviz-iframe-container">
           <JobVizIframeContainer />
-        </div>
+        </div> */}
+        <div className="job-viz-db-container">
+          <img className="job-viz-db-img" src="/jbviz-db.png" />
         <div className="jobviz-description-container">
           <p>
             All of our lessons are connected to careers with JobViz: a visual
@@ -48,9 +50,7 @@ function LandingPageBody() {
             people doing these jobs!
           </p>
         </div>
-        {/* <div className="job-viz-db-container">
-          <img src="https://gdurl.com/j40c" width="500px" />
-        </div> */}
+        </div>
         <div className="gp-signup-container">
           <p>
             <strong>Sign up</strong> to stay in the loop about new lessons, add
