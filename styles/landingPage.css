@@ -77,6 +77,7 @@
 }
 
 .jobviz-description-container {
+  width: 100%;
   padding: 1rem;
   grid-row: 9 / 10;
   grid-column: 1 / 1;
@@ -84,6 +85,7 @@
 
 .job-viz-db-container {
   display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
   grid-row: 11 / 12;
   grid-column: 1 / 1;
@@ -106,6 +108,14 @@
 
 @media only screen and (min-width: 850px) {
   /* For desktop: */
+  .jobviz-description-container {
+    width: 45%;
+  }
+
+  .job-viz-db-container {
+    flex-wrap: nowrap;
+  }
+
   .landing-page-body-grid {
     font-size: 1rem;
     grid-column: 2 / 3;
