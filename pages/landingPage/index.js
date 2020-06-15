@@ -43,13 +43,13 @@ function LandingPageBody() {
         </div> */}
         <div className="job-viz-db-container">
           <img className="job-viz-db-img" src="/jbviz-db.png" />
-        <div className="jobviz-description-container">
-          <p>
-            All of our lessons are connected to careers with JobViz: a visual
-            explorer for 1000 of the most common jobs and a database of diverse
-            people doing these jobs!
-          </p>
-        </div>
+          <div className="jobviz-description-container">
+            <p>
+              All of our lessons are connected to careers with JobViz: a visual
+              explorer for 1000 of the most common jobs and a database of diverse
+              people doing these jobs!
+            </p>
+          </div>
         </div>
         <div className="gp-signup-container">
           <p>
