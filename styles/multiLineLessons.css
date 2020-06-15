@@ -41,7 +41,6 @@ div[class*="-img-container"] {
   border: 4px solid var(--red-line-color);
 }
 .math-lesson-text {
-  border: 5px solid green;
   grid-area: math-txt;
 }
 .science-lesson-img-container {
