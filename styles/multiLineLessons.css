@@ -141,10 +141,6 @@ div[class*="-img-container"] {
       ". engl-img engl-img engl-img engl-img . engl-txt engl-txt engl-txt";
   }
 
-  .math-lesson-text {
-    border: 5px solid orange;
-  }
-
   .red-line {
     grid-column: 2 / 3;
     grid-row: 1 / span 1;
