@@ -8,7 +8,7 @@ var i = 0,
   root;
     
 const initJobVizGraphic = (width, height) => {
-  $(document).ready(function(){
+
     var margin = { top: 0, right: 60, bottom: 0, left: 60 }
 
     var tree_loaded = false;
@@ -415,6 +415,7 @@ const initJobVizGraphic = (width, height) => {
         small_stack.push(result);
       }
   );
-})}
+
+}
 
 export default initJobVizGraphic
