@@ -14,7 +14,7 @@ const NavBar = () => {
       </Link>
       <Button path="/" buttonText="Home" classProp="header-nav-button" />
       <Button path="/lessons" buttonText="Lessons" classProp="header-nav-button" />
-      <Button path="/jobViz" buttonText="JobViz" classProp="header-nav-button" />
+      <Button path="/job-viz" buttonText="JobViz" classProp="header-nav-button" />
       <Button path="/hireUs" buttonText="Hire Us" classProp="header-nav-button" />
       <Button path="/about" buttonText="About" classProp="header-nav-button" />
       <Button path="/login" buttonText="Login" classProp="header-nav-button" />
