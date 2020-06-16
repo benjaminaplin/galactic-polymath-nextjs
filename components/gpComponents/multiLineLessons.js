@@ -12,7 +12,7 @@ const MultiLineLessons = () => {
        <img
          alt="math lesson image"
          className="math-lesson-image"
-         src="https://gdurl.com/m8Iy"
+         src="/math-img.png"
        />
      </div>
      <div className="math-lesson-text">

@@ -5,23 +5,16 @@ import NavBar from "../../components/layout/navBar"
 // import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 
 const JobViz = () => {
-  const [width, setWidth] = useState(0)
-  const [height, setHeight] = useState(0)
   var margin = { top: 0, right: 60, bottom: 0, left: 60 };
 
   useEffect(() => {
     const width = Math.max(window.innerWidth, 1600) - margin.right - margin.left;
     const height = window.innerHeight - margin.top - margin.bottom;
-    console.log("width: ", width, "height: ", height);
-    // setHeight(height)
-    // setWidth(width)
     initJobVizGraphic(width, height);
     
     const svgs = document.getElementsByTagName("svg");
-    console.log("SVGS!", svgs);
     return function cleanUp() {
       svgs.length > 0 && svgs[0].remove();
-      console.log("cleaned it up!", svgs);
     };
   }, []);
 
