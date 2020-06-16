@@ -5,14 +5,14 @@
 svg {
   display: none;
 }
-@media (min-width: 992px) {
-  .small-data-table {
-    display: none;
-  }
-  svg {
-    display: block;
-  }
+.small-data-table {
+  display: none;
 }
+svg {
+  display: block;
+}
+/* @media (min-width: 992px) { */
+/* } */
 
 a {
   color: #2c83c3;
