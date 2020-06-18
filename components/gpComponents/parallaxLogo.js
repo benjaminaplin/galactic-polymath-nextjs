@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
-const ParallaxLogo = () => {
+class ParallaxLogo extends Component {
+  render(){
   return (
-    <Parallax
+    <div className="header-logo-container">
+      <Parallax
         pages={2}
         ref={(ref) => (this.parallax = ref)}
         style={{ width: "70%" }}
@@ -11,22 +13,28 @@ const ParallaxLogo = () => {
         <ParallaxLayer offset={0} speed={2}>
           <div className="job-viz-grad-background" />
         </ParallaxLayer>
-        <ParallaxLayer offset={.4} speed={2}>
+        <ParallaxLayer offset={0.4} speed={2}>
           <div className="job-viz-grad-background-2" />
         </ParallaxLayer>
-        <ParallaxLayer offset={.75} speed={1}>
+        <ParallaxLayer offset={0.75} speed={1}>
           <div className="diagonal-box-2">
             <div className="content" />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={0.20} speed={2}>
+        <ParallaxLayer offset={0.2} speed={2}>
           <div className="diagonal-box">
             <div className="content" />
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.1}>
-          <img src="https://gdurl.com/4KdN" height="600" />
+          <div>
+            <img className="header-logo" src="https://gdurl.com/4KdN" />
+          </div>
         </ParallaxLayer>
       </Parallax>
-  )
+    </div>
+  );
+  }
 }
+
+export default ParallaxLogo;

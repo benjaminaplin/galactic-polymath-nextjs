@@ -16,6 +16,8 @@
 }
 
 .main-content {
+  height: 100%;
+  border: 4px solid lime;
   grid-area: main-content;
 }
 
@@ -35,6 +37,7 @@
 
 .header-logo-container {
   text-align: center;
+  /* z-index: 0; */
 }
 .header-logo {
   width: 40%;
@@ -49,7 +52,7 @@
 }
 
 .header-nav-button {
-  background: #fff;
+  background: var(--gp-sparkle-white);
   font-size: 0.5rem;
   color: var(--main-text-color);
   cursor: pointer;
