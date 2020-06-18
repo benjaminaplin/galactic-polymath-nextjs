@@ -38,9 +38,6 @@ function LandingPageBody() {
           </p>
         </div>
         <MultiLineLessons />
-        {/* <div className="jobviz-iframe-container">
-          <JobVizIframeContainer />
-        </div> */}
         <div className="job-viz-db-container">
           <img className="job-viz-db-img" src="/jbviz-db.png" />
           <div className="jobviz-description-container">
