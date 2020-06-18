@@ -127,7 +127,7 @@ div[class*="-img-container"] {
   /* For desktop:/ */
   .nested-multiline-grid {
     display: grid;
-    grid-template-rows: repeat(5, 2rem max-content);
+    grid-template-rows: repeat(5, 5rem max-content);
     grid-template-columns: repeat(4, 1rem) repeat(2, minmax(0rem, 8rem)) 1rem repeat(
         2,
         1fr
