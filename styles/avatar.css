@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1rem;
   padding: 1rem;
 }
 
@@ -13,4 +12,11 @@
 .avatar-info-container {
   margin: auto;
   font-size: xx-large;
+}
+
+.profile-container {
+  border: 1px solid var(--purple-border-color);
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  padding: 1rem;
 }

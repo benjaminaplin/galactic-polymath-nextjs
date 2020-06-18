@@ -2,10 +2,13 @@
   display: grid;
   grid-gap: 1rem;
   min-width: 500px;
+  grid-template-columns: 0 1fr 5%;
+  color: var(--main-text-color);
+  font-size: 0.85rem;
   grid-template-areas:
-    "header"
-    "main-content"
-    "footer";
+    ". header ."
+    ". main-content ."
+    "footer footer footer";
 }
 
 .header {
@@ -25,7 +28,6 @@
 
 /* HEADER INNER GRID */
 .navbar-container {
-  padding-top: 1rem;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
@@ -43,7 +45,7 @@
   height: 20%;
   min-width: 2rem;
   min-height: 2rem;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .header-nav-button {
@@ -64,22 +66,28 @@
   display: flex;
 }
 .header-nav-button {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
+}
+
+@media (min-width: 400px) {
+  .header-nav-button {
+    font-size: 0.6rem;
+  }
 }
 
 @media (min-width: 600px) {
   .main-layout-grid-container {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 5% 1fr 5%;
     grid-template-areas:
-      "header header header"
-      "main-content main-content main-content"
+      ". header ."
+      ". main-content ."
       "footer footer footer";
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 870px) {
   /* For desktop: */
   .header-nav-button {
     font-size: 1.05rem;

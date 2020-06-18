@@ -91,5 +91,5 @@ h2 {
 .popup.show {
   display: block;
   background: #eeeeee;
-  border: 1px solid black;
+  border: 1px solid var(--purple-border-color);
 }

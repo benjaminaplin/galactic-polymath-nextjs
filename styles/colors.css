@@ -1,0 +1,15 @@
+:root {
+  --gp-hydro-blue: #2c83c3;
+  --gp-lightning-purple: #6c2d82;
+  --gp-fuchsia: #ff3dac;
+  --gp-atomic-blue: #6812d1;
+  --gp-burst-purple: #cb1f8e;
+  --gp-galactic-black: #090816;
+  --gp-sparkle-white: #f0f4ff;
+  --red-line-color: #f43367;
+  --blue-line-color: #016dc6;
+  --green-line-color: #4eae53;
+  --yellow-line-color: #ffa826;
+  --main-text-color: var(--gp-hydro-blue);
+  --purple-border-color: var(--gp-burst-purple);
+}

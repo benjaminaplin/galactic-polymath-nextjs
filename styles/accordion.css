@@ -4,9 +4,7 @@
 }
 
 .accordion-wrapper {
-  & + * {
-    margin-top: 0.5em;
-  }
+  margin-top: 0.5em;
 }
 
 .accordion-item {
@@ -23,35 +21,13 @@
 
 .accordion-title {
   cursor: pointer;
-  /* padding: 0.25rem 1rem; */
   margin: 0 1.95rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  &::after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid currentColor;
-  }
-
-  &:hover,
-  &.open {
-    color: black;
-  }
-
-  &.open {
-    &::after {
-      content: "";
-      border-top: 0;
-      border-bottom: 5px solid;
-    }
-  }
 }
 
-.accordion-content {
-  /* padding: 0 1.5em; */
-}
+/* .accordion-wrapper [class*="arrow"] {
+  cursor: pointer;
+  border-bottom: 20px solid grey;
+} */
