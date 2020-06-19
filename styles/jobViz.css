@@ -1,23 +1,27 @@
 .diagonal-box {
   z-index: 0;
   height: 20rem;
+  width: 95%;
   background-image: linear-gradient(
     45deg,
     var(--gp-lightning-purple),
     var(--gp-burst-purple)
   );
   transform: skewY(-11deg);
+  opacity: 0.5;
 }
 
 .diagonal-box-2 {
   z-index: 0;
   height: 20rem;
+  width: 95%;
   background-image: linear-gradient(
     45deg,
     var(--gp-hydro-blue),
     var(--gp-fuchsia)
   );
   transform: skewY(11deg);
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 600px) {

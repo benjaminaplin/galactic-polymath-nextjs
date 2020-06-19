@@ -16,16 +16,14 @@
 }
 
 .main-content {
-  height: 100%;
-  border: 4px solid lime;
   grid-area: main-content;
 }
 
 .footer {
   grid-area: footer;
   font-size: 1.25rem;
-  color: white;
-  background: black;
+  color: var(--gp-sparkle-white);
+  background: var(--gp-galactic-black);
 }
 
 /* HEADER INNER GRID */
@@ -52,7 +50,7 @@
 }
 
 .header-nav-button {
-  background: var(--gp-sparkle-white);
+  background-color: var(--gp-sparkle-white);
   font-size: 0.5rem;
   color: var(--main-text-color);
   cursor: pointer;
