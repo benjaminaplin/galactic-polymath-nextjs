@@ -7,7 +7,6 @@ export const globalStyles = (
            styles={css`
              html,
              body {
-               padding: 2rem 1rem;
                margin: 0;
                background-color: ${colors.gPSparkleWhite};
                min-height: 100%;

@@ -21,9 +21,9 @@ const LandingPageBody = () => {
 
   useEffect(() => {
       document.getElementsByTagName("body")[0].style.padding = 0;
-    return () => {
-      document.getElementsByTagName("body")[0].style.padding = "2rem 1rem";
-    }
+    // return () => {
+    //   document.getElementsByTagName("body")[0].style.padding = "2rem 1rem";
+    // }
   }, [])
 
   console.log('viewPortWidth', viewPortWidth)

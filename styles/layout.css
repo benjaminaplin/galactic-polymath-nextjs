@@ -5,9 +5,9 @@
   color: var(--main-text-color);
   font-size: 0.85rem;
   grid-template-areas:
-    ". header ."
+    "header header header"
     ". main-content ."
-    "footer footer footer";
+    ". footer .";
 }
 
 .header {

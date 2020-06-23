@@ -3,20 +3,24 @@
   grid-area: multi-line-lessons;
   display: grid;
   grid-template-rows: repeat(5, 2rem auto auto);
-  grid-template-columns: repeat(4, 1rem) 1fr 1fr;
+  grid-template-columns: repeat(4, 1rem) 1fr;
   grid-template-areas:
-    ". red-line blue-line yellow-line green-line  . "
-    ". math-img math-img math-img math-img . "
-    ". math-txt math-txt math-txt math-txt math-txt  "
-    ". . blue-line-2 yellow-line-2 green-line-2 . "
-    ". science-img science-img science-img science-img . "
-    ". science-txt  science-txt science-txt science-txt science-txt"
-    ". . . yellow-line-3 green-line-3 . "
-    ". soc-img soc-img soc-img soc-img . "
-    ". soc-txt soc-txt soc-txt soc-txt soc-txt"
-    ". . . . green-line-4 . "
-    ". engl-img engl-img engl-img engl-img . "
-    ". engl-txt engl-txt engl-txt engl-txt  engl-txt ";
+    "red-line blue-line yellow-line green-line  . "
+    "math-img math-img math-img math-img . "
+    "math-txt math-txt math-txt math-txt math-txt  "
+    ". blue-line-2 yellow-line-2 green-line-2 . "
+    "science-img science-img science-img science-img . "
+    "science-txt  science-txt science-txt science-txt science-txt"
+    ". . yellow-line-3 green-line-3 . "
+    "soc-img soc-img soc-img soc-img . "
+    "soc-txt soc-txt soc-txt soc-txt soc-txt"
+    ". . . green-line-4 . "
+    "engl-img engl-img engl-img engl-img . "
+    "engl-txt engl-txt engl-txt engl-txt  engl-txt ";
+}
+
+.landing-page-body-grid .nested-multiline-grid {
+  margin-left: 1rem;
 }
 
 div[class*="-line"] {
@@ -116,12 +120,6 @@ div[class*="-lesson-text"] {
 
 @media only screen and (min-width: 850px) {
   /* For desktop:/ */
-  div[class*="-lesson-text"] {
-    background: none;
-  }
-}
-@media only screen and (min-width: 850px) {
-  /* For desktop:/ */
   .nested-multiline-grid {
     display: grid;
     grid-template-rows: repeat(5, 5rem max-content);
@@ -131,13 +129,21 @@ div[class*="-lesson-text"] {
       );
     grid-template-areas:
       ". red-line blue-line yellow-line green-line  . . . ."
-      ". math-img math-img math-img math-img . . math-txt math-txt"
+      "math-img  math-img math-img math-img math-img . . math-txt math-txt"
       ". . blue-line-2 yellow-line-2 green-line-2 . . . ."
-      ". science-img science-img science-img science-img . science-txt science-txt  science-txt"
+      "science-img science-img science-img science-img science-img . science-txt science-txt  science-txt"
       ". . . yellow-line-3 green-line-3 . . . ."
-      ". soc-img soc-img soc-img soc-img . soc-txt soc-txt soc-txt"
+      "soc-img soc-img soc-img soc-img soc-img . soc-txt soc-txt soc-txt"
       ". . . . green-line-4 .  . . ."
-      ". engl-img engl-img engl-img engl-img . engl-txt engl-txt engl-txt";
+      "engl-img engl-img engl-img engl-img engl-img . engl-txt engl-txt engl-txt";
+  }
+
+  .landing-page-body-grid .nested-multiline-grid {
+    margin-left: 0;
+  }
+
+  div[class*="-lesson-text"] {
+    background: none;
   }
 
   [class*="-lesson-image"] {
