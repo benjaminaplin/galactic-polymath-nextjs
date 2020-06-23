@@ -4,7 +4,7 @@ import Layout from "../../components/layout/layout";
 const HireUs = () => {
   return (
     <Layout>
-      <div className="landing-page-body-grid">
+      <div className="general-page-body-grid">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien
           velit, rutrum tincidunt tellus eget, dictum accumsan est. Ut ut enim

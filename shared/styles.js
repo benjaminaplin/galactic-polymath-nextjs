@@ -1,21 +1,21 @@
 import { keyframes, css, Global } from '@emotion/core'
+import colors from '../styles/colors'
 import styled from '@emotion/styled'
 
 export const globalStyles = (
-  <Global
-    styles={css`
-      html,
-      body {
-        padding: 2rem 1rem;
-        margin: 0;
-        background: #fff;
-        min-height: 100%;
-        font-family: Montserrat, sans-serif;
-        font-size: 24px;
-      }
-    `}
-  />
-)
+         <Global
+           styles={css`
+             html,
+             body {
+               margin: 0;
+               background-color: ${colors.gPSparkleWhite};
+               min-height: 100%;
+               font-family: Montserrat, sans-serif;
+               font-size: 24px;
+             }
+           `}
+         />
+       );
 
 export const basicStyles = css`
   background-color: white;

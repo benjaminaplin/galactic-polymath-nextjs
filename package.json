@@ -14,6 +14,7 @@
   "dependencies": {
     "@emotion/core": "10.0.27",
     "@emotion/styled": "10.0.27",
+    "@react-spring/parallax": "9.0.0-canary.808.8.4a87fcb",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -26,6 +27,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
     "vercel": "^19.0.1"
   }
 }
