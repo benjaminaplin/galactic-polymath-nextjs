@@ -26,7 +26,6 @@
   background: #f5f9fd;
   grid-area: classroom-image;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -125,10 +124,14 @@
       " . multi-line-lessons multi-line-lessons . "
       " . footer footer . ";
   }
+
+  .classroom-image {
+    height: 100%;
+  }
 }
 @media only screen and (min-width: 1250px) {
   /* For desktop: */
   .landing-page-body-grid {
-    top: 18rem;
+    top: 20rem;
   }
 }
