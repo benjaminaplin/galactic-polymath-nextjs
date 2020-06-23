@@ -1,4 +1,5 @@
 import { keyframes, css, Global } from '@emotion/core'
+import colors from '../styles/colors'
 import styled from '@emotion/styled'
 
 export const globalStyles = (
@@ -8,7 +9,7 @@ export const globalStyles = (
              body {
                padding: 2rem 1rem;
                margin: 0;
-               background-image: #6812d1;
+               background-color: ${colors.gPSparkleWhite};
                min-height: 100%;
                font-family: Montserrat, sans-serif;
                font-size: 24px;
