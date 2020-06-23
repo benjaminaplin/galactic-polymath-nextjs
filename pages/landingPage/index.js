@@ -13,24 +13,36 @@ const calc = (o) => `translateY(${o * 0.5}px)`;
 const LandingPageBody = () => {
   const ref = useRef()
     const [viewPortWidth, setViewPortWidth] = useState(320)
+    const [numPages, setNumPages] = useState(320)
 
   useEffect(() => {
     const vw = document.documentElement.clientWidth;
     setViewPortWidth(vw)
   }, [])
 
-  // useEffect(() => {
-      // document.getElementsByTagName("body")[0].style.padding = 0;
-    // return () => {
-    //   document.getElementsByTagName("body")[0].style.padding = "2rem 1rem";
+  const getNumPages = viewPortWidth => {
+    // console.log('viewPortWidth', viewPortWidth)
+    // if (viewPortWidth > 350 && viewPortWidth < 415) {
+    //   return 4;
     // }
-  // }, [])
+    // if (viewPortWidth < 350) {
+    //   return 6.75
+    // }
+    // return 4.75
+    return viewPortWidth < 350 ? 5.5 : 4.75;
+  }
 
-  console.log('viewPortWidth', viewPortWidth)
+  useEffect(() => {
+    const numberPages = getNumPages(viewPortWidth);
+    setNumPages(numberPages)
+    console.log("numberPages", numberPages);  
+  }, [])
+
+
   return (
     <>
       <Parallax
-        pages={5}
+        pages={viewPortWidth < 350 ? 5.5 : 4.75}
         ref={(ref) => ref}
         style={{ backgroundColor: colors.gPSparkleWhite, width: "100%" }}
       >
