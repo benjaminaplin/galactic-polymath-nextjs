@@ -30,7 +30,7 @@ const LandingPageBody = () => {
   return (
     <>
       <Parallax
-        pages={4}
+        pages={5}
         ref={(ref) => ref}
         style={{ backgroundColor: colors.gPSparkleWhite, width: "100%" }}
       >
