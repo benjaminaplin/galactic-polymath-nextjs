@@ -70,12 +70,15 @@ div[class*="-lesson-text"] {
   border: solid 4px rgba(#000, 0.2);
   padding: 1rem;
 }
-
 [class*="-lesson-image"] {
-  object-fit: scale-down;
+  object-fit: cover;
   width: 265px;
   height: 165px;
   background: #fff;
+}
+
+img.math-lesson-image {
+  object-fit: scale-down;
 }
 
 .math-lesson-image {
@@ -147,6 +150,7 @@ div[class*="-lesson-text"] {
   }
 
   [class*="-lesson-image"] {
+    object-fit: cover;
     width: 446px;
     height: 275px;
   }

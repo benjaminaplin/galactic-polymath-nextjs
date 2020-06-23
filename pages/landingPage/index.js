@@ -20,29 +20,10 @@ const LandingPageBody = () => {
     setViewPortWidth(vw)
   }, [])
 
-  const getNumPages = viewPortWidth => {
-    // console.log('viewPortWidth', viewPortWidth)
-    // if (viewPortWidth > 350 && viewPortWidth < 415) {
-    //   return 4;
-    // }
-    // if (viewPortWidth < 350) {
-    //   return 6.75
-    // }
-    // return 4.75
-    return viewPortWidth < 350 ? 5.5 : 4.75;
-  }
-
-  useEffect(() => {
-    const numberPages = getNumPages(viewPortWidth);
-    setNumPages(numberPages)
-    console.log("numberPages", numberPages);  
-  }, [])
-
-
   return (
     <>
       <Parallax
-        pages={viewPortWidth < 350 ? 5.5 : 4.75}
+        pages={viewPortWidth < 350 ? 5.5 : 4}
         ref={(ref) => ref}
         style={{ backgroundColor: colors.gPSparkleWhite, width: "100%" }}
       >
