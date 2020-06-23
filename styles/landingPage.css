@@ -2,17 +2,16 @@
   z-index: 100;
   font-size: 0.85rem;
   position: relative;
-  top: 8rem;
+  top: 6rem;
   display: grid;
-  /* grid-template-rows: repeat(6, 1fr); */
-  grid-template-columns: 1fr 5%;
+  grid-template-columns: 5% 1fr minmax(4rem, 15%);
   grid-template-areas:
-    " classroom-image . "
-    " mission-statement . "
-    " stem-image-row . "
-    " summary-statement-row . "
-    " multi-line-lessons . "
-    " footer .";
+    " . classroom-image . "
+    " . mission-statement . "
+    " . stem-image-row . "
+    " . summary-statement-row . "
+    " . multi-line-lessons . "
+    " . footer .";
   color: var(--main-text-color);
 }
 
@@ -27,14 +26,11 @@
   grid-area: classroom-image;
   width: 100%;
 }
-/* .mission-statement-row {
-  grid-area: mission-statement;
-  border: 2px solid #cce2f3;
-} */
 
 .stem-image-row {
   grid-area: stem-image-row;
   text-align: center;
+  width: 100%;
 }
 
 .stem-image {
@@ -80,8 +76,25 @@
   padding: 1rem;
 }
 
+@media only screen and (min-width: 470px) {
+  /* For desktop: */
+  .landing-page-body-grid {
+    top: 9rem;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+  .landing-page-body-grid {
+    top: 12rem;
+  }
+  .classroom-image {
+    width: 100%;
+  }
+
+  .stem-image-row {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 850px) {

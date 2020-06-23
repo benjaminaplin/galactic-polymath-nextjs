@@ -1,7 +1,6 @@
 .main-layout-grid-container {
   display: grid;
   grid-gap: 1rem;
-  min-width: 500px;
   grid-template-columns: 0 1fr 5%;
   color: var(--main-text-color);
   font-size: 0.85rem;
@@ -50,6 +49,7 @@
 }
 
 .header-logo-container {
+  width: 80%;
   text-align: center;
 }
 .header-logo {
