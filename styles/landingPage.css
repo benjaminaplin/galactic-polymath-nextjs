@@ -5,6 +5,7 @@
   top: 6rem;
   display: grid;
   grid-template-columns: 1fr minmax(0.5rem, 3%);
+  grid-template-rows: repeat(6, max-content);
   grid-template-areas:
     "classroom-image . "
     "mission-statement . "
@@ -25,6 +26,8 @@
   background: #f5f9fd;
   grid-area: classroom-image;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .stem-image-row {
@@ -79,8 +82,6 @@
 @media only screen and (min-width: 470px) {
   /* For mobile: */
   .classroom-image {
-    background: #f5f9fd;
-    grid-area: classroom-image;
     width: 100%;
   }
 
@@ -89,11 +90,14 @@
     text-align: center;
     width: 100%;
   }
-}
-@media only screen and (min-width: 470px) {
-  /* For tablets: */
   .landing-page-body-grid {
     top: 9rem;
+  }
+}
+@media only screen and (min-width: 520px) {
+  /* For tablets: */
+  .landing-page-body-grid {
+    top: rem;
   }
 }
 
@@ -103,10 +107,6 @@
     top: 12rem;
     grid-template-columns: 1fr 3%;
   }
-  .classroom-image {
-    width: 100%;
-  }
-
   .stem-image-row {
     width: 100%;
   }
@@ -115,13 +115,20 @@
 @media only screen and (min-width: 850px) {
   /* For desktop: */
   .landing-page-body-grid {
-    top: 18rem;
-    grid-template-columns: repeat(2, 1fr) minmax(1rem, 2%);
+    top: 14rem;
+    grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
+    margin: 0 auto;
     grid-template-areas:
-      "classroom-image mission-statement . "
-      "stem-image-row stem-image-row . "
-      "summary-statement-row summary-statement-row . "
-      "multi-line-lessons multi-line-lessons . "
-      "footer footer . ";
+      " . classroom-image mission-statement . "
+      " . stem-image-row stem-image-row . "
+      " . summary-statement-row summary-statement-row . "
+      " . multi-line-lessons multi-line-lessons . "
+      " . footer footer . ";
+  }
+}
+@media only screen and (min-width: 1250px) {
+  /* For desktop: */
+  .landing-page-body-grid {
+    top: 18rem;
   }
 }

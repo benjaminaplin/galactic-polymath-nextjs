@@ -5,11 +5,9 @@ import Link from "next/link";
 const Button = ({classProp, buttonText, path }) => {
   return (
       <Link href={path}>
-        <a>
           <button className={classProp}>
             {buttonText}
           </button>
-        </a>
       </Link>
   );
 };

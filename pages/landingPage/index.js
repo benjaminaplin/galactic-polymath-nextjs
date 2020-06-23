@@ -30,7 +30,7 @@ const LandingPageBody = () => {
   return (
     <>
       <Parallax
-        pages={viewPortWidth < 400 ? 6.75 : 4.35}
+        pages={4}
         ref={(ref) => ref}
         style={{ backgroundColor: colors.gPSparkleWhite, width: "100%" }}
       >
