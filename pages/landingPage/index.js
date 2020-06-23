@@ -32,14 +32,16 @@ const LandingPageBody = () => {
       <Parallax
         pages={viewPortWidth < 400 ? 6.75 : 4.35}
         ref={(ref) => ref}
-        style={{ backgroundColor: colors.gPSparkleWhite }}
+        style={{ backgroundColor: colors.gPSparkleWhite, width: "100%" }}
       >
         <NavBar />
-        <ParallaxLayer offset={0} speed={-0.5}>
-          <div className="header-logo-container">
-            <img className="header-logo" src="https://gdurl.com/4KdN" />
-          </div>
-        </ParallaxLayer>
+        <div style={{ width: viewPortWidth }}>
+          <ParallaxLayer style={{ width: "100%" }} offset={0} speed={-0.5}>
+            <div className="header-logo-container">
+              <img className="header-logo" src="https://gdurl.com/4KdN" />
+            </div>
+          </ParallaxLayer>
+        </div>
         <div className="landing-page-body-grid">
           <img className="classroom-image" src="https://gdurl.com/9GiJ" />
           <div className="mission-statement-text">

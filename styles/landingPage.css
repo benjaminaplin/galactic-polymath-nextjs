@@ -4,14 +4,14 @@
   position: relative;
   top: 6rem;
   display: grid;
-  grid-template-columns: 5% 1fr minmax(4rem, 15%);
+  grid-template-columns: 1fr minmax(0.5rem, 3%);
   grid-template-areas:
-    " . classroom-image . "
-    " . mission-statement . "
-    " . stem-image-row . "
-    " . summary-statement-row . "
-    " . multi-line-lessons . "
-    " . footer .";
+    "classroom-image . "
+    "mission-statement . "
+    "stem-image-row . "
+    "summary-statement-row . "
+    "multi-line-lessons . "
+    "footer .";
   color: var(--main-text-color);
 }
 
@@ -77,7 +77,21 @@
 }
 
 @media only screen and (min-width: 470px) {
-  /* For desktop: */
+  /* For mobile: */
+  .classroom-image {
+    background: #f5f9fd;
+    grid-area: classroom-image;
+    width: 100%;
+  }
+
+  .stem-image-row {
+    grid-area: stem-image-row;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 470px) {
+  /* For tablets: */
   .landing-page-body-grid {
     top: 9rem;
   }
@@ -87,6 +101,7 @@
   /* For tablets: */
   .landing-page-body-grid {
     top: 12rem;
+    grid-template-columns: 1fr 3%;
   }
   .classroom-image {
     width: 100%;
@@ -101,7 +116,7 @@
   /* For desktop: */
   .landing-page-body-grid {
     top: 18rem;
-    grid-template-columns: repeat(2, 1fr) 5%;
+    grid-template-columns: repeat(2, 1fr) minmax(1rem, 2%);
     grid-template-areas:
       "classroom-image mission-statement . "
       "stem-image-row stem-image-row . "

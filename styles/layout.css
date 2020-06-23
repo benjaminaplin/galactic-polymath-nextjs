@@ -23,8 +23,6 @@
   font-size: 0.85rem;
   z-index: 0;
   display: grid;
-  /* grid-template-rows: repeat(12, max-content); */
-  /* grid-template-columns: 1fr; */
   color: var(--main-text-color);
 }
 
@@ -41,7 +39,6 @@
   background: var(--gp-galactic-black);
 }
 
-/* HEADER INNER GRID */
 .navbar-container {
   display: grid;
   grid-template-rows: 1fr;
@@ -49,9 +46,9 @@
 }
 
 .header-logo-container {
-  width: 80%;
   text-align: center;
 }
+
 .header-logo {
   width: 40%;
 }
@@ -105,7 +102,7 @@
 @media only screen and (min-width: 870px) {
   /* For desktop: */
   .header-nav-button {
-    font-size: 1.05rem;
+    font-size: 0.75rem;
   }
   .header-logo {
     width: 30%;
