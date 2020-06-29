@@ -43,18 +43,6 @@ const LandingPageBody = () => {
             </div>
           </ParallaxLayer>
         </div>
-        <div className="landing-page-body-grid">
-          <img className="classroom-image" src="https://gdurl.com/9GiJ" />
-          <div className="mission-statement-text">
-            <p>
-              <strong>We are a startup education studio. </strong>
-              We make lessons that are <i>creative, authentic, and interdisciplinary</i>. We translate knowledge that is not generally available to the public by working directly with experts.
-            </p>
-          </div>
-          <div className="stem-image-row">
-            <img className="stem-image" src="https://gdurl.com/UWKg" />
-          </div>
-        </ParallaxLayer>
         <ParallaxLayer factor={3}>
           <div>
             <div className="landing-page-body-grid">
@@ -62,9 +50,10 @@ const LandingPageBody = () => {
               <div className="mission-statement-text">
                 <p>
                   <strong>We are a startup education studio. </strong>
-                  We think learning should be fun. When it&rsquo;s not fun, it
-                  should be interesting. And to be interesting, it needs to
-                  connect to the real world.
+                  We make lessons that are{" "}
+                  <i>creative, authentic, and interdisciplinary</i>. We
+                  translate knowledge that is not generally available to the
+                  public by working directly with experts.
                 </p>
               </div>
               <div className="stem-image-row">
