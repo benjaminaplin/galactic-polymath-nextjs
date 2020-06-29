@@ -18,8 +18,9 @@ const About = () => {
         </p>
         <div>          
           <div className="profile-container">
-            <Avatar name="Matt Wilkins, PhD" description="Founder, CEO" />
-            <Accordion title={"Having done scientific research for 12 years.."}>
+            <Avatar imgUrl="https://res.cloudinary.com/galactic-polymath/image/upload/w_150,c_fill,ar_1:1,q_auto,g_auto/Matt_Wilkins_profile_ukorql.jpg"
+                name="Matt Wilkins, PhD" description="Founder, CEO" />
+            <Accordion title={"Having done scientific research for 12 years..."}>
               <p className="about-paragraph">
                 Having done scientific research for 12 years, taught at the
                 undergraduate and graduate level, and worked for three years
@@ -33,7 +34,8 @@ const About = () => {
                 collaboration, and critical thinking, to provide opportunities for
                 creative solutions and communications of ideas, and to transform
                 stale, rote material created by education publishers into memorable,
-                active lessons. I&rsquo;s all too much!
+                active lessons. It&rsquo;s all too much!
+
               </p>
 
               <p className="about-paragraph">
@@ -47,24 +49,22 @@ const About = () => {
                 can&rsquo;t read or understand into world-expanding lessons that
                 empower both teachers and students with an impossible, aspirational
                 goal: think bigger; learn everything!
+                </p>
+              <p className="about-paragraph">
+                Learn more about me at <a href={"http://www.mattwilkinsbio.com"}>mattwilkinsbio.com</a>
               </p>
             </Accordion>
             </div>
         </div>
         <div>
         </div>
-        <div className="profile-container">
-          <Avatar name="Ethan Williams" description="Back-end Developer" />
-          <Accordion title="About Ethan...">
-            <p className="about-paragraph">About Ethan...Text Text Text Text</p>
-          </Accordion>
-          </div>
-        <div>
-        </div>
+
         <div className="profile-container">
           <Avatar name="Arda Turkman" description="Back-end Developer" />
-          <Accordion title="About Ada">
-            <p className="about-paragraph">About Ada...Text Text Text Text</p>
+          <Accordion title="Arda is a senior at Vanderbilt University...">
+            <p className="about-paragraph">Arda is a senior at Vanderbilt University. He has
+            been helping build back-end infrastructure for Galactic Polymath since Spring of 2019.
+            He hopes to get into a PhD program after graduating from Vanderbilt.</p>
           </Accordion>
         </div>
       </div>
