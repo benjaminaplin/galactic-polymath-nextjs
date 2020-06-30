@@ -17,7 +17,7 @@ const NavBar = () => {
       <Button path="/job-viz" buttonText="JobViz" classProp="header-nav-button" />
       <Button path="/hireUs" buttonText="Hire Us" classProp="header-nav-button" />
       <Button path="/about" buttonText="About" classProp="header-nav-button" />
-      <Button path="/login" buttonText="Login" classProp="header-nav-button" />
+      <Button path="/logIn" buttonText="Login" classProp="header-nav-button" />
     </div>
   );
 };
