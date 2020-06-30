@@ -10,6 +10,7 @@
   --blue-line-color: #016dc6;
   --green-line-color: #4eae53;
   --yellow-line-color: #ffa826;
+  --text-background: #f5f9fd;
   --main-text-color: var(--gp-hydro-blue);
   --purple-border-color: var(--gp-burst-purple);
 }

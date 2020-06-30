@@ -11,13 +11,12 @@ export const globalStyles = (
                background-color: ${colors.gPSparkleWhite};
                min-height: 100%;
                font-family: Montserrat, sans-serif;
-               font-size: 24px;
-               padding: 1rem 0rem 0 0.5rem;
+               font-size: 24px; 
              }
            `}
          />
        );
-
+// padding: 1rem 0rem 0 0.5rem;
 export const basicStyles = css`
   background-color: white;
   color: cornflowerblue;

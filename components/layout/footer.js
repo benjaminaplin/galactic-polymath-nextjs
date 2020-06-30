@@ -1,11 +1,13 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = ({numPages, footerOffset}) => {
   return (
     <div className="footer">
+          <div>NumPages: {numPages}</div>
+          <div>FooterOffset: {footerOffset}</div>
       <div className="footer-grid">
         <div className="first-row">
-          <div className="first-row-footer-text">Education that inspires.</div>
+          {/* <div className="first-row-footer-text">Education that inspires.</div> */}
         </div>
         <div className="second-row">
           <div>

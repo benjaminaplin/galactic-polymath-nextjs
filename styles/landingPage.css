@@ -17,14 +17,15 @@
 }
 
 .mission-statement-text {
-  background: #f5f9fd;
+  background: var(--text-background);
   grid-area: mission-statement;
   padding: 1rem;
 }
 
 .classroom-image {
-  background: #f5f9fd;
+  background: var(--text-background);
   grid-area: classroom-image;
+  max-height: 290px;
   width: 100%;
   object-fit: cover;
 }
@@ -33,6 +34,7 @@
   grid-area: stem-image-row;
   text-align: center;
   width: 100%;
+  background: #fff;
 }
 
 .stem-image {
@@ -44,7 +46,6 @@
   padding: 1rem;
 }
 
-/* LESSONS INNER GRID */
 .lesson-text {
   padding: 0.5rem;
   color: var(--main-text-color);
@@ -62,7 +63,7 @@
 
 .job-viz-db-container {
   justify-content: center;
-  background: #f5f9fd;
+  background: var(--text-background);
   border: 2px solid #cce2f3;
   display: flex;
   flex-wrap: wrap;
@@ -80,8 +81,21 @@
 
 @media only screen and (min-width: 470px) {
   /* For mobile: */
+
+  .landing-page-body-grid {
+    top: 10rem;
+    grid-template-columns: 0.25fr repeat(2, 1fr) 0.25fr;
+    grid-template-areas:
+      " . classroom-image mission-statement . "
+      " . stem-image-row stem-image-row . "
+      " . summary-statement-row summary-statement-row . "
+      " . multi-line-lessons multi-line-lessons . "
+      " . footer footer . ";
+  }
+
   .classroom-image {
     width: 100%;
+    min-height: 400px;
   }
 
   .stem-image-row {
@@ -93,10 +107,12 @@
     top: 9rem;
   }
 }
+
 @media only screen and (min-width: 520px) {
   /* For tablets: */
   .landing-page-body-grid {
-    top: rem;
+    /* grid-template-columns: 1fr 3%; */
+    top: 11rem;
   }
 }
 
@@ -104,7 +120,7 @@
   /* For tablets: */
   .landing-page-body-grid {
     top: 12rem;
-    grid-template-columns: 1fr 3%;
+    /* grid-template-columns: 1fr 3%; */
   }
   .stem-image-row {
     width: 100%;
@@ -114,8 +130,8 @@
 @media only screen and (min-width: 850px) {
   /* For desktop: */
   .landing-page-body-grid {
-    top: 14rem;
-    grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
+    top: 16rem;
+    grid-template-columns: 0.25fr repeat(2, 1fr) 0.25fr;
     margin: 0 auto;
     grid-template-areas:
       " . classroom-image mission-statement . "
@@ -124,14 +140,31 @@
       " . multi-line-lessons multi-line-lessons . "
       " . footer footer . ";
   }
-
-  .classroom-image {
-    height: 100%;
+  .mission-statement-text {
+    padding: 1.2rem;
+    font-size: 1rem;
   }
 }
+
 @media only screen and (min-width: 1250px) {
   /* For desktop: */
+  .stem-image {
+    object-fit: cover;
+    max-height: 400px;
+    width: unset;
+  }
+  .mission-statement-text {
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
   .landing-page-body-grid {
-    top: 16rem;
+    top: 18rem;
+  }
+}
+
+@media only screen and (min-width: 1420px) {
+  /* For desktop: */
+  .landing-page-body-grid {
+    top: 19rem;
   }
 }
