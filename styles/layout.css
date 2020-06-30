@@ -31,13 +31,6 @@
   grid-column: 1;
 }
 
-.footer {
-  grid-area: footer;
-  font-size: 1.25rem;
-  color: var(--gp-sparkle-white);
-  background: var(--gp-galactic-black);
-}
-
 .navbar-container {
   padding-top: 1rem;
   display: grid;

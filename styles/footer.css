@@ -4,6 +4,15 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
+.footer {
+  grid-area: footer;
+  font-size: 1.25rem;
+  height: 15vh;
+  color: var(--gp-sparkle-white);
+  background: var(--gp-galactic-black);
+  border: 2px solid red;
+}
+
 .first-row {
   padding: 2rem 1rem 0.5rem 1rem;
   display: flex;
@@ -25,4 +34,11 @@
 
 .large-footer-text {
   font-size: 3rem;
+}
+
+@media only screen and (min-width: 700px) {
+  /* For desktop: */
+  .footer {
+    height: 25vh;
+  }
 }
