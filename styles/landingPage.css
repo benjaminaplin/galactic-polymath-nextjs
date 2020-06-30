@@ -2,7 +2,6 @@
   z-index: 100;
   font-size: 0.85rem;
   position: relative;
-  top: 6rem;
   display: grid;
   grid-template-columns: 1fr minmax(0.5rem, 3%);
   grid-template-rows: repeat(6, max-content);
@@ -89,21 +88,11 @@
     text-align: center;
     width: 100%;
   }
-  .landing-page-body-grid {
-    top: 9rem;
-  }
-}
-@media only screen and (min-width: 520px) {
-  /* For tablets: */
-  .landing-page-body-grid {
-    top: rem;
-  }
 }
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .landing-page-body-grid {
-    top: 12rem;
     grid-template-columns: 1fr 3%;
   }
   .stem-image-row {
@@ -114,7 +103,6 @@
 @media only screen and (min-width: 850px) {
   /* For desktop: */
   .landing-page-body-grid {
-    top: 14rem;
     grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
     margin: 0 auto;
     grid-template-areas:
@@ -122,16 +110,10 @@
       " . stem-image-row stem-image-row . "
       " . summary-statement-row summary-statement-row . "
       " . multi-line-lessons multi-line-lessons . "
-      " . footer footer . ";
+      " footer footer footer footer ";
   }
 
   .classroom-image {
     height: 100%;
-  }
-}
-@media only screen and (min-width: 1250px) {
-  /* For desktop: */
-  .landing-page-body-grid {
-    top: 16rem;
   }
 }
