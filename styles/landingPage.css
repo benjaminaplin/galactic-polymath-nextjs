@@ -2,7 +2,7 @@
   z-index: 100;
   font-size: 0.85rem;
   position: relative;
-  top: 6rem;
+  /* top: 6rem; */
   display: grid;
   grid-template-columns: 1fr minmax(0.5rem, 3%);
   grid-template-rows: repeat(6, max-content);
@@ -83,7 +83,7 @@
   /* For mobile: */
 
   .landing-page-body-grid {
-    top: 10rem;
+    /* top: 10rem; */
     grid-template-columns: 0.25fr repeat(2, 1fr) 0.25fr;
     grid-template-areas:
       " . classroom-image mission-statement . "
@@ -104,7 +104,7 @@
     width: 100%;
   }
   .landing-page-body-grid {
-    top: 9rem;
+    /* top: 9rem; */
   }
 }
 
@@ -112,14 +112,14 @@
   /* For tablets: */
   .landing-page-body-grid {
     /* grid-template-columns: 1fr 3%; */
-    top: 11rem;
+    /* top: 11rem; */
   }
 }
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .landing-page-body-grid {
-    top: 12rem;
+    /* top: 12rem; */
     /* grid-template-columns: 1fr 3%; */
   }
   .stem-image-row {
@@ -130,7 +130,7 @@
 @media only screen and (min-width: 850px) {
   /* For desktop: */
   .landing-page-body-grid {
-    top: 16rem;
+    /* top: 16rem; */
     grid-template-columns: 0.25fr repeat(2, 1fr) 0.25fr;
     margin: 0 auto;
     grid-template-areas:
@@ -158,13 +158,13 @@
     font-size: 1.2rem;
   }
   .landing-page-body-grid {
-    top: 18rem;
+    /* top: 18rem; */
   }
 }
 
 @media only screen and (min-width: 1420px) {
   /* For desktop: */
   .landing-page-body-grid {
-    top: 19rem;
+    /* top: 19rem; */
   }
 }

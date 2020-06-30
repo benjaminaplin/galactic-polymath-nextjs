@@ -31,15 +31,6 @@
   grid-column: 1;
 }
 
-.footer {
-  grid-area: footer;
-  font-size: 1.25rem;
-  /* height: 25vh; */
-  color: var(--gp-sparkle-white);
-  background: var(--gp-galactic-black);
-  border: 2px solid red;
-}
-
 .navbar-container {
   padding-top: 1rem;
   display: grid;

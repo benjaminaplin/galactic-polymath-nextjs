@@ -9,39 +9,53 @@ import colors from '../../styles/colors'
 
 const LandingPageBody = () => {
   const ref = useRef()
-    const [footerOffset, setFooterOffset] = useState(3.5)
-    const [numPages, setNumPages] = useState(4)
+  const [numPages, setNumPages] = useState(3)
+  const [footerOffset, setFooterOffset] = useState(2.8)
+  const [MainContentOffset, setMainContentOffset] = useState(.5)
 
   useEffect(() => {
     const vw = document.documentElement.clientWidth;
+    const vh = document.documentElement.clientHeight;
     console.log('view port width', vw)
-    // if(vw > 900){
-    //   setNumPages(4)
-    //   setFooterOffset(3.75)
-    // }
+    console.log('view port height', vh)
+    if(vw <= 400){
+      setNumPages(4)
+      setFooterOffset(3.95)
+      setMainContentOffset(.2)
+    }
+    if(vw > 400 && vw < 750){
+      setNumPages(3)
+      setFooterOffset(2.85)
+      setMainContentOffset(.25)
+    }
+    if(vw >= 750 && vw < 930){
+      setNumPages(3)
+      setFooterOffset(2.75)
+      setMainContentOffset(.35)
+    }
   }, [])
 
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <div
         style={{
           backgroundColor: colors.gPSparkleWhite,
           zIndex: "-100",
-          height: '100vh'
+          // height: '100vh'
         }}
       >
         <Parallax
           style={{ backgroundColor: colors.gPSparkleWhite, overflow: "hidden" }}
-          pages={4}
+          pages={numPages}
           ref={(ref) => ref}
         >
-          <ParallaxLayer offset={0} speed={0.5}>
+          <ParallaxLayer offset={0} speed={-0.5}>
             <div className="header-logo-container">
               <img className="header-logo" src="https://gdurl.com/4KdN" />
             </div>
           </ParallaxLayer>
-          <ParallaxLayer offset={0}>
+          <ParallaxLayer offset={MainContentOffset}>
             <div>
               <div className="landing-page-body-grid">
                 <img className="classroom-image" src="https://gdurl.com/9GiJ" />
@@ -74,12 +88,9 @@ const LandingPageBody = () => {
                 <MultiLineLessons />
               </div>
             </div>          
-          {/* </ParallaxLayer>
-          <ParallaxLayer
-            offset={1.4}> */}
           </ParallaxLayer>
           <ParallaxLayer
-            offset={3.75}
+            offset={footerOffset}
             style={{
               width: "100%",
             }}
