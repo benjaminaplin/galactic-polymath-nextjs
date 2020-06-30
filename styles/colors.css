@@ -11,5 +11,6 @@
   --green-line-color: #4eae53;
   --yellow-line-color: #ffa826;
   --main-text-color: var(--gp-hydro-blue);
+  --text-background-color: #f5f9fd;
   --purple-border-color: var(--gp-burst-purple);
 }

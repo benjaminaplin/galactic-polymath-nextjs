@@ -121,7 +121,7 @@ img.math-lesson-image {
   grid-area: engl-txt;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 1130px) {
   /* For desktop:/ */
   .nested-multiline-grid {
     display: grid;

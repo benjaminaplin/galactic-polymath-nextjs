@@ -16,15 +16,20 @@
 }
 
 .mission-statement-text {
-  background: #f5f9fd;
+  background: var(--text-background-color);
   grid-area: mission-statement;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
   padding: 1rem;
 }
 
 .classroom-image {
-  background: #f5f9fd;
+  background: var(--text-background-color);
   grid-area: classroom-image;
   width: 100%;
+  min-height: 245px;
   object-fit: cover;
 }
 
@@ -61,7 +66,7 @@
 
 .job-viz-db-container {
   justify-content: center;
-  background: #f5f9fd;
+  background: var(--text-background-color);
   border: 2px solid #cce2f3;
   display: flex;
   flex-wrap: wrap;
