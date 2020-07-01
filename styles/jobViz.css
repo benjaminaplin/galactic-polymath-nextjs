@@ -1,3 +1,17 @@
+.general-page-main-content .svg-container {
+  margin: 2rem 0;
+  border: 2px solid var(--purple-border-color);
+  border-radius: 5px;
+  padding: 0.5rem 0;
+}
+
+.job-viz-header .navbar-container {
+  margin: 0;
+}
+
+.job-viz.general-page-main-content {
+  margin: 0 8%;
+}
 .diagonal-box {
   z-index: 0;
   height: 20rem;

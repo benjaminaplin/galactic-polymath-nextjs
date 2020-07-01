@@ -5,6 +5,7 @@ const HireUs = () => {
   return (
     <Layout>
       <div className="general-page-body-grid">
+        <div className="general-page-main-content">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien
           velit, rutrum tincidunt tellus eget, dictum accumsan est. Ut ut enim
@@ -34,6 +35,7 @@ const HireUs = () => {
         sit amet, dignissim id tortor. Fusce varius, elit eu lobortis facilisis,
         massa odio vestibulum velit, in fringilla libero dui at nulla.
         </p>
+        </div>
       </div>
     </Layout>
   );

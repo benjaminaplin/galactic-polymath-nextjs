@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../../components/layout/navBar"
+import Footer from "../../components/layout/footer"
 import * as d3 from "d3";
 import $ from "jquery";
 import * as $csv from "jquery-csv";
@@ -20,10 +21,27 @@ const JobViz = () => {
 
     return (
       <>
-      <div className="job-viz-header">
-        <NavBar />
-      </div>
-        <div className="svg-container" />
+        <div className="general-page-body-grid">
+          <div className="job-viz general-page-main-content">
+            <div className="job-viz-header">
+              <NavBar />
+            </div>
+            <p>
+              <strong>About JobViz: </strong>Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. In et interdum leo. Nullam eu tortor
+              id nisi venenatis eleifend ut quis libero. Morbi eu orci eu sem
+              placerat placerat. Vestibulum porta varius commodo. Donec nunc
+              turpis, dictum vel scelerisque sed, sollicitudin non magna.
+              Maecenas iaculis ut eros sit amet imperdiet. Ut sit amet lorem ut
+              tortor luctus porta sed quis sem. In quis justo id risus tempus
+              consequat a vitae nulla. Praesent blandit augue non mi dictum,
+              quis porttitor nulla dictum. Curabitur id fermentum urna. Donec
+              viverra dui metus, eget interdum purus semper quis.
+            </p>
+            <div className="svg-container" />
+          </div>
+        </div>
+        <Footer />
       </>
     );
 }
@@ -170,7 +188,7 @@ const initJobVizGraphic = (width, height) => {
         return d.name.length * 9.5 + padding * 2;
       })
       .attr("height", bbox.height + padding * 2)
-      .style("fill", "white")
+      .style("fill", "#f0f4ff")
       .style("fill-opacity", 1e-6);
 
     // Transition nodes to their new position.

@@ -12,8 +12,11 @@ export const globalStyles = (
                min-height: 100%;
                font-family: Montserrat, sans-serif;
                font-size: 24px;
-               padding: 1rem 0 0 0.5rem;
+               padding: 0;
                overflow: auto;
+             },
+             strong {
+               font-weight: bold;
              }
            `}
          />
