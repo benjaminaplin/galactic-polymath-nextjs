@@ -1,13 +1,30 @@
 import React, { useEffect, useRef, useState } from "react";
 import MultiLineLessons from "../../components/gpComponents/multiLineLessons";
 import Layout from "../../components/layout/layout";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { useSpring, animated } from "react-spring";
-import NavBar from '../../components/layout/navBar'
-import Footer from '../../components/layout/footer'
-import colors from '../../styles/colors'
 
 const LandingPageBody = () => {
+
+ function handleScroll() {
+   const top =  window.pageYOffset
+   const headerLogoContainer = 
+   document.querySelector(
+     ".header-logo-container"
+   )
+   headerLogoContainer.style.transform = `translateY(${top / 1.5}px)`;
+   headerLogoContainer.style.opacity = 1 - Math.max(top / (window.innerHeight * .3), 0)
+
+  }
+    
+  useEffect(() => {
+  const watchScroll = () => {
+    window.addEventListener("scroll", handleScroll);
+   }
+   watchScroll();
+   return () => {
+     window.removeEventListener("scroll", handleScroll);
+   };
+ });
+
   return (
     <Layout>
       <>
