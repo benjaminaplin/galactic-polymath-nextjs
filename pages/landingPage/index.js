@@ -1,29 +1,38 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 import MultiLineLessons from "../../components/gpComponents/multiLineLessons";
 import Layout from "../../components/layout/layout";
 
 const LandingPageBody = () => {
+  const inViewPort = (el) => {
+    let rect = el.getBoundingClientRect();
+    return (
+      (rect.top <= 0 && rect.bottom >= 0) ||
+      (rect.bottom >= window.innerHeight && rect.top <= window.innerHeight) ||
+      (rect.top >= 0 && rect.bottom <= window.innerHeight)
+    );
+  };
 
- function handleScroll() {
-   const top =  window.pageYOffset
-   const headerLogoContainer = 
-   document.querySelector(
-     ".header-logo-container"
-   )
-   headerLogoContainer.style.transform = `translateY(${top / 1.5}px)`;
-   headerLogoContainer.style.opacity = 1 - Math.max(top / (window.innerHeight * .3), 0)
+  const handleScroll = () => {
+    const top = window.pageYOffset;
+    const headerLogoContainer = document.querySelector(
+      ".header-logo-container"
+    );
+    headerLogoContainer.style.transform = `translateY(${top / 1.5}px)`;
+    headerLogoContainer.style.opacity =
+      1 - Math.max(top / (window.innerHeight * 0.3), 0);
+    const mathLessonImage = document.querySelector(".math-lesson-image");
+    // console.log("isInView?", inViewPort(mathLessonImage));
+  };
 
-  }
-    
   useEffect(() => {
-  const watchScroll = () => {
-    window.addEventListener("scroll", handleScroll);
-   }
-   watchScroll();
-   return () => {
-     window.removeEventListener("scroll", handleScroll);
-   };
- });
+    const watchScroll = () => {
+      window.addEventListener("scroll", handleScroll);
+    };
+    watchScroll();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 
   return (
     <Layout>
@@ -64,7 +73,6 @@ const LandingPageBody = () => {
       </>
     </Layout>
   );
-}
-
+};
 
 export default LandingPageBody;

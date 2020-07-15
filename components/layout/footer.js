@@ -1,4 +1,5 @@
 import React from "react";
+import { NavBarLinks } from "./navBar";
 
 const Footer = () => {
   return (
@@ -12,6 +13,9 @@ const Footer = () => {
             Think <span className="large-footer-text">bigger</span>. Learn
             everything.
           </div>
+        </div>
+        <div className="third-row">
+          <NavBarLinks containerClass="footer-nav-links" />
         </div>
       </div>
     </div>

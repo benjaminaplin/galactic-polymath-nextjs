@@ -1,0 +1,38 @@
+.nav-bar-links-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+
+.navbar-container {
+  padding-top: 1rem;
+  display: flex;
+}
+
+.navbar-container a {
+  /* border: 1px solid blue; */
+  width: 20%;
+}
+
+.navbar-logo {
+  width: 20%;
+  height: 20%;
+  min-width: 1.25rem;
+}
+
+.navbar-logo_container {
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  .navbar-logo {
+    min-width: 2rem;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .navbar-container {
+    margin: 0 16%;
+  }
+}
