@@ -82,7 +82,7 @@ const About = () => {
               </p>
               <div>
                 {profiles.map((profile) => (
-                  <div className="profile-container">
+                  <div key={profile.name} className="profile-container">
                     <Avatar
                       imgUrl={profile.imgUrl}
                       name={profile.name}
