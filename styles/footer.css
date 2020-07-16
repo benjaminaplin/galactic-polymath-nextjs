@@ -20,6 +20,10 @@
   grid-area: second;
 }
 
+.second-row div {
+  padding-left: 1rem;
+}
+
 .third-row {
   display: flex;
   align-items: flex-end;
@@ -54,5 +58,15 @@
 @media only screen and (min-width: 833px) {
   .nav-bar-links-container.footer-nav-links .header-nav-button {
     height: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-grid {
+    grid-template-columns: 20% repeat(2, 1fr) 20%;
+    grid-template-areas:
+      " . first first . "
+      " . second second . "
+      " . third third . ";
   }
 }
