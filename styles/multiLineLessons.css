@@ -78,7 +78,7 @@ div[class*="-lesson-text"] {
 }
 
 img.math-lesson-image {
-  object-fit: scale-down;
+  object-fit: contain;
 }
 
 .math-lesson-image {

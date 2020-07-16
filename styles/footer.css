@@ -35,6 +35,24 @@
   font-size: 3rem;
 }
 
-div.nav-bar-links-container.footer-nav-links .header-nav-button {
+.nav-bar-links-container.footer-nav-links .header-nav-button {
   color: var(--gp-sparkle-white);
+  text-align: center;
+  height: 1.25rem;
+  padding: 0 5%;
+  border-right: 2px solid var(--gp-sparkle-white);
+}
+
+.nav-bar-links-container.footer-nav-links .header-nav-button:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.nav-bar-links-container.footer-nav-links .header-nav-button:first-child {
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 833px) {
+  .nav-bar-links-container.footer-nav-links .header-nav-button {
+    height: 1rem;
+  }
 }

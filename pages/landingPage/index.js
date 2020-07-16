@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import MultiLineLessons from "../../components/gpComponents/multiLineLessons";
 import Layout from "../../components/layout/layout";
+import { makeCloudinaryUrl } from "../../shared/constants";
 
 const LandingPageBody = () => {
   const inViewPort = (el) => {
@@ -38,10 +39,21 @@ const LandingPageBody = () => {
     <Layout>
       <>
         <div className="header-logo-container">
-          <img className="header-logo" src="https://gdurl.com/4KdN" />
+          {/* <img className="header-logo" src="https://gdurl.com/4KdN" /> */}
+          <img
+            className="header-logo"
+            src={makeCloudinaryUrl(
+              "v1594935064/logos/GP-bl_text_rainbow_icon_alpha_bg-01_kfbga4.png"
+            )}
+          />
         </div>
         <div className="landing-page-body-grid">
-          <img className="classroom-image" src="https://gdurl.com/9GiJ" />
+          <img
+            className="classroom-image"
+            src={makeCloudinaryUrl(
+              "v1592966103/Flowers_NIT_classroom_300ppi_ex64rj.png"
+            )}
+          />
           <div className="mission-statement-text">
             <p>
               <strong>We are a startup education studio. </strong>
@@ -52,7 +64,12 @@ const LandingPageBody = () => {
             </p>
           </div>
           <div className="stem-image-row">
-            <img className="stem-image" src="/stem.png" />
+            <img
+              className="stem-image"
+              src={makeCloudinaryUrl(
+                "v1592966102/GP_Visual_Argument_sw6hv1.png"
+              )}
+            />
           </div>
           <div className="summary-statement-row">
             <p>

@@ -1,8 +1,7 @@
 .nav-bar-links-container {
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  /* border: 1px solid red; */
+  justify-content: space-between;
 }
 
 .navbar-container {
@@ -11,7 +10,6 @@
 }
 
 .navbar-container a {
-  /* border: 1px solid blue; */
   width: 20%;
 }
 
