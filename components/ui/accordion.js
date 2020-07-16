@@ -1,9 +1,8 @@
-import React, { useState} from 'react'
-
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 const Accordion = ({ title, children }) => {
   const [isOpen, setOpen] = useState(false);
-  console.log('isOpen', isOpen)
   return (
     <div className="accordion-wrapper">
       <div
@@ -25,4 +24,10 @@ const Accordion = ({ title, children }) => {
     </div>
   );
 };
+
+Accordion.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.node,
+};
+
 export default Accordion;

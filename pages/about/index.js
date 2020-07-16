@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import Layout from "../../components/layout/layout";
 import Avatar from "../../components/ui/avatar";
 import Accordion from "../../components/ui/accordion";
@@ -64,38 +64,35 @@ const profiles = [
   },
 ];
 
-
 const About = () => {
   return (
     <Layout>
-        <>
-          <div className="general-page-body-grid">
-            <div className="general-page-main-content">
-              <div className="about-body-grid">
-                <p className="about-paragraph">
-                  Galactic Polymath (GP) is an early-stage startup based in
-                  Nashville, TN, USA. It was founded by Matt Wilkins, PhD, a
-                  biologist, multi-award-winning science communicator, and k-12
-                  educator. The goal of GP is to create a nimble studio that works
-                  with experts to translate complicated, cutting-edge knowledge into
-                  mind-blowing lessons that are better than what&rsquo;s currently
-                  available, but also as easy to teach as possible.
-                </p>
-                <div>
-                  {profiles.map(profile => (
-                    <div className="profile-container">
-                      <Avatar
-                        imgUrl={profile.imgUrl}
-                        name={profile.name}
-                        description={profile.description}
-                      />
-                      <Accordion
-                        title={profile.accordionHeader}
-                      >
-                        {profile.aboutText}
-                      </Accordion>
-                    </div>
-                  ))}
+      <>
+        <div className="general-page-body-grid">
+          <div className="general-page-main-content">
+            <div className="about-body-grid">
+              <p className="about-paragraph">
+                Galactic Polymath (GP) is an early-stage startup based in
+                Nashville, TN, USA. It was founded by Matt Wilkins, PhD, a
+                biologist, multi-award-winning science communicator, and k-12
+                educator. The goal of GP is to create a nimble studio that works
+                with experts to translate complicated, cutting-edge knowledge
+                into mind-blowing lessons that are better than what&rsquo;s
+                currently available, but also as easy to teach as possible.
+              </p>
+              <div>
+                {profiles.map((profile) => (
+                  <div key={profile.name} className="profile-container">
+                    <Avatar
+                      imgUrl={profile.imgUrl}
+                      name={profile.name}
+                      description={profile.description}
+                    />
+                    <Accordion title={profile.accordionHeader}>
+                      {profile.aboutText}
+                    </Accordion>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
