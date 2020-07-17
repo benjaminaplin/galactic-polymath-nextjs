@@ -23,7 +23,6 @@ export const NavBarLinks = ({ containerClass = "" }) => {
         classProp="header-nav-button"
       />
       <Button path="/about" buttonText="About" classProp="header-nav-button" />
-      <Button path="/logIn" buttonText="Login" classProp="header-nav-button" />
     </div>
   );
 };
