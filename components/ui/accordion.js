@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { classNames } from "classNames";
+import classNames from "classNames";
 
 const Accordion = ({ title, children }) => {
   const [isOpen, setOpen] = useState(false);
