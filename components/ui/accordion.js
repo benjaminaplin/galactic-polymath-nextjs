@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import classNames from "classNames";
 
 const Accordion = ({ title, children }) => {
   const [isOpen, setOpen] = useState(false);
-
-  const arrowClasses = classNames({
-    "arrow-up": isOpen,
-    "arrow-down": !isOpen,
-  });
 
   return (
     <div className="accordion-wrapper">
@@ -18,7 +12,10 @@ const Accordion = ({ title, children }) => {
       >
         <div>{isOpen ? null : title}</div>
         <div>
-          <div onClick={() => setOpen(!isOpen)} className={arrowClasses} />
+          <div
+            onClick={() => setOpen(!isOpen)}
+            className={isOpen ? "arrow-up" : "arrow-down"}
+          />
         </div>
       </div>
       <div className={`accordion-item ${!isOpen ? "collapsed" : ""}`}>
